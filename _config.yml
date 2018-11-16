@@ -1,0 +1,54 @@
+# Site settings
+title: TWOFCS19
+email: katyhuff@gmail.com
+description: "Website for the 2019 Technical Workshop on Fuel Cycle Simulation"
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://arfc.github.io" # the base hostname & protocol for your site
+twitter_username: katyhuff
+github_username: arfc
+logo: "/img/logo.svg"
+
+# Agency color settings
+color:
+  primary: 0e9aa7
+  primary-dark: 4a4e4d 
+  secondary: f6cd61 
+  secondary-dark: fe8a71
+  transparent: rgba(0,21,56,0.7)
+
+
+# Build settings
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+
+permalink: pretty
+
+# Jekyll Scholar
+scholar:
+  style: chicago-author-date
+  locale: en
+
+  sort_by: year
+  order: descending
+
+  group_by: none
+  group_order: ascending
+
+  source: ./_bibliography
+  bibliography: references.bib
+  bibliography_template: bibliography
+
+  replace_strings: true
+  join_strings:    true
+
+  use_raw_bibtex_entry: true
+
+  details_dir:    bibliography
+  details_layout: bibtex.html
+  details_link:   Details
+
+  query: "@*"
+  
+  repository: papers
