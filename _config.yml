@@ -10,10 +10,10 @@ logo: "/img/logo.svg"
 
 # Agency color settings
 color:
-  primary: 0e9aa7
-  primary-dark: 4a4e4d 
-  secondary: f6cd61 
-  secondary-dark: fe8a71
+  primary: fe8a71 # orange
+  primary-dark: 0e9aa7 # aqua
+  secondary: f6cd61 # yellow
+  secondary-dark: 085960 # dark aqua
   transparent: rgba(0,21,56,0.7)
 
 
