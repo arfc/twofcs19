@@ -64,7 +64,7 @@ subtitle: University of Illinois at Urbana-Champaign
             <ul class="timeline">
 	    {% for deadline in site.data.deadlines %}
               <li>
-                  <a href="{{ deadline.url | prepend: site.baseurl }}"><div 
+                  <a href="{{ deadline.url | prepend: site.baseurl | prepend: site.url }}"><div 
                                   class="timeline-image"><img 
                                   class="rounded-circle img-fluid" src="{{ 
                                   deadline.img }}" alt="">
