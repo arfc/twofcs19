@@ -1,0 +1,24 @@
+- name: History
+  pic: about/history.png
+  url: about/history
+  description: 'Links to previous workshops in the TWOFCS series.'
+
+- name: Organizers
+  pic: about/organizers.png
+  url: about/organizers
+  description: 'Learn more about the organizers of the 4th annual TWOFCS.'
+
+- name: Participants
+  pic: about/participants.png
+  url: about/participants
+  description: 'See the list of confirmed attendees.'
+
+- name: Code of Conduct
+  pic: about/coc.png
+  url: about/coc
+  description: 'Review the expectations for inclusive, professional engagement in this community.'
+
+- name: Sponsors
+  pic: about/sponsors.png
+  url: about/sponsors
+  description: 'Learn more about the organizations that sponsored the 4th annual TWOFCS.'
