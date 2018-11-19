@@ -18,7 +18,7 @@ layout: page
                                                 <i class="fa fa-plus fa-3x"></i>
                                         </div>
                                 </div>
-                                <img src="{{ person.pic }}" class="img-circle img-responsive" alt="{{ person.name }}">
+                                <img src="{{ person.pic | prepend: site.baseurl }}" class="img-circle img-responsive" alt="{{ person.name }}">
                         </a>
                         <div class="portfolio-caption">
                                 <p class="text-muted">{{ role.description }}</p>
