@@ -1,0 +1,47 @@
+---
+layout: default
+---
+
+<!-- Presentations -->
+<section id="pres" class="{% cycle '', 'bg-light-gray' %}">
+        <div class="container">
+                <div class="row">
+                        <div class="col-lg-12 text-center">
+                                <h2 class="section-heading">{{ page.title }}</h2>
+                                <h3 class="section-subheading text-muted">{{ page.subtitle }}</h3>
+                        </div>
+                </div>
+        </div>
+
+        {% for day in site.data.program %}
+        <div class="container">
+                <div class="row">
+                        <center><button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#{{ forloop.index }}" aria-expanded="false" aria-controls="{{ forloop.index }}">
+                        {{ day.date }}
+                        </button>
+                        </center>
+                        <div class="collapse" id="{{ forloop.index }}">
+                                {% for topic in day.active %}
+                                <br/>
+                                <div class="row project">
+                                        <div class="col-md-2">
+                                        <h4>{{ topic.session }}</h4>
+                                        </div>
+                                        <div class="col-md-4">
+                                        <h5>{{ topic.title }}</h4>
+                                        {% if topic.presenter %}<p><i class="fa fa-user"> {{ topic.presenter }}</i></p>{% endif %}
+                                        {% if topic.type %}<p><i class="fa fa-comment"> {{ topic.type }}</i></p>{% endif %}
+                                        {% if topic.slides %}<p><i class="fa fa-image"></i> <a href="{{ topic.slides }}"> {{ topic.slides }}</a></p>{% endif %}
+                                        {% if topic.paper %}<p><i class="fa fa-file-text-o"></i> <a href="{{ topic.paper }}">{{ topic.paper }}</a></p>{% endif %}
+                                        </div>
+                                        <div class="col-md-6">
+                                                <p class="text-muted" >{{ topic.abstract }}</p>
+                                        </div>
+                                </div>
+                                {% endfor %}
+                        </div>
+                </div>
+        </div>
+        <br/>
+        {% endfor %}
+</section>
