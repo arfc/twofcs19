@@ -1,0 +1,48 @@
+- date: "June 26, 2019"
+  active:
+  - title: "Your Title Here"
+    presenter: Jane Doe
+    session: "Session"
+    type: Lightning Talk
+    time: '14:00'
+    slides: '/pres/00-lastname-title.pdf'
+    paper: '/papers/00-lastname-title.pdf'
+    abstract: "Abstract here."
+  - title: "Your Title Here"
+    presenter: Jane Doe
+    session: "Session"
+    type: Lunch
+    time: '12:00'
+    abstract: "Lunch."
+- date: "June 27, 2019" 
+  active:
+  - title: "Your Title Here"
+    presenter: Jane Doe
+    session: "Session"
+    type: Lightning Talk
+    time: '14:00'
+    slides: '/pres/00-lastname-title.pdf'
+    paper: '/papers/00-lastname-title.pdf'
+    abstract: "Abstract here."
+  - title: "Your Title Here"
+    presenter: Jane Doe
+    session: "Session"
+    type: Lunch
+    time: '12:00'
+    abstract: "Lunch."
+- date: "June 28, 2019" 
+  active:
+  - title: "Your Title Here"
+    presenter: Jane Doe
+    session: "Session"
+    type: Lightning Talk
+    time: '14:00'
+    slides: '/pres/00-lastname-title.pdf'
+    paper: '/papers/00-lastname-title.pdf'
+    abstract: "Abstract here."
+  - title: "Your Title Here"
+    presenter: Jane Doe
+    session: "Session"
+    type: Lunch
+    time: '12:00'
+    abstract: "Lunch."

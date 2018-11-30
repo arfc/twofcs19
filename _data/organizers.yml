@@ -1,0 +1,45 @@
+- name: Kathryn Huff
+  pic: /img/people/huffk.jpg
+  role: Chair
+  src: http://katyhuff.github.io
+  url: http://katyhuff.github.io
+  description: 'Assistant Professor at the University of Illinois at Urbana-Champaign'
+  social:
+    - url: mailto:kdhuff@illinois.edu
+      icon: envelope-o
+      name: Email
+    - url: https://github.com/katyhuff
+      icon: github-alt
+      name: Github
+    - url: https://twitter.com/katyhuff
+      icon: twitter
+      name: Twitter
+    - url: https://www.linkedin.com/in/kathryn-huff-b03309a
+      icon: linkedin
+      name: LinkedIn
+    - url: https://scholar.google.com/citations?user=rD2qRk8AAAAJ&hl=en
+      icon: graduation-cap
+      name: Google Scholar
+
+- name: Firstname Lastname
+  pic: /img/people/you.png
+  role: Technical Program Committee
+  src: <++>
+  url: <++>
+  description: 'Fancytitle Professor at Euphoric State University'
+  social:
+    - url: mailto:<++>
+      icon: envelope-o
+      name: Email
+    - url: https://<++>
+      icon: github-alt
+      name: Github
+    - url: https://twitter.com/<++>
+      icon: twitter
+      name: Twitter
+    - url: https://www.linkedin.com/in/<++>
+      icon: linkedin
+      name: LinkedIn
+    - url: https://scholar.google.com/citations?user=<++>
+      icon: graduation-cap
+      name: Google Scholar
