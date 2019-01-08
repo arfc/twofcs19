@@ -3,7 +3,7 @@ title: TWOFCS19
 email: katyhuff@gmail.com
 description: "Website for the 2019 Technical Workshop on Fuel Cycle Simulation"
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://arfc.github.io/twofcs19" # the base hostname & protocol for your site
+url: "http://arfc.github.io" # the base hostname & protocol for your site
 twitter_username: katyhuff
 github_username: arfc
 logo: "/img/logo.svg"
