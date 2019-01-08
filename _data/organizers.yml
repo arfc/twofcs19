@@ -21,6 +21,37 @@
       icon: graduation-cap
       name: Google Scholar
 
+- name: Paul P.H. Wilson
+  pic: /img/people/wilsonp.jpg
+  role: Technical Program Committee
+  src: https://directory.engr.wisc.edu/ep/faculty/wilson_paul
+  url: https://directory.engr.wisc.edu/ep/faculty/wilson_paul
+  description: 'Grainger Professor of Nuclear Engineering at the University of Wisconsin - Madison'
+  social:
+    - url: mailto:paul.wilson@wisc.edu
+      icon: envelope-o
+      name: Email
+    - url: https://github.com/gonuke
+      icon: github-alt
+      name: Github
+    - url: https://twitter.com/gonuke
+      icon: twitter
+      name: Twitter
+
+- name: Baptiste Mouginot 
+  pic: /img/people/mouginotb.png
+  role: Technical Program Committee
+  src: http://cnerg.github.io/people/bam.html
+  url: http://cnerg.github.io/people/bam.html
+  description: 'Research Scientist at the University of Wisconsin - Madison'
+  social:
+    - url: mouginot@wisc.edu
+      icon: envelope-o
+      name: Email
+    - url: https://github.com/bam241
+      icon: github-alt
+      name: Github
+
 - name: Firstname Lastname
   pic: /img/people/you.png
   role: Technical Program Committee
