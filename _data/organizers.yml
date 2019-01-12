@@ -53,7 +53,7 @@
       name: Github
 
 - name: Nicolas Tholliere
-  pic: /img/people/you.png
+  pic: /img/people/thollieren.jpg
   role: Technical Program Committee
   src: <++>
   url: <++>
@@ -62,6 +62,20 @@
     - url: https://www.researchgate.net/profile/Nicolas_Thiolliere
       icon: graduation-cap
       name: ResearchGate
+
+- name: Eva Davidson
+  pic: /img/people/.png
+  role: Technical Program Committee
+  src: https://www.ornl.gov/staff-profile/eva-e-davidson
+  url: https://www.ornl.gov/staff-profile/eva-e-davidson
+  description: 'Reactor Physics Analysis Engineer, Oak Ridge National Laboratory'
+  social:
+    - url: mailto:davidsonee@ornl.gov
+      icon: envelope-o
+      name: Email
+    - url: https://orcid.org/0000-0001-5733-9273
+      icon: graduation-cap
+      name: OrcID
 
 - name: Firstname Lastname
   pic: /img/people/you.png
