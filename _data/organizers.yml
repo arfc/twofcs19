@@ -55,8 +55,8 @@
 - name: Nicolas Tholliere
   pic: /img/people/thollieren.jpg
   role: Technical Program Committee
-  src: <++>
-  url: <++>
+  src: https://www.imt-atlantique.fr/en/user/972
+  url: https://www.imt-atlantique.fr/en/user/972
   description: 'Nicolas Thiollière is working on nuclear systems and fuel cycle simulations at CNRS/IN2P3 and is also teacher at IMT Atlantique. He pilots the research project around the fuel cycle simulator CLASS, mainly used to perform fuel cycle studies in IN2P3 and IRSN. Nicolas thiolliere also leads interdisciplinary programs that connect nuclear physicists with researchers in sociology and economics. They work on the energetic transition and try also to assess what is the role of scenarios in this framework. He leads the FIT (Functionnality Isolation Test) project that gathers nuclear physicist from US and Europe on the topic of confidence in fuel cycle simulators outputs.'
   social:
     - url: https://www.researchgate.net/profile/Nicolas_Thiolliere
