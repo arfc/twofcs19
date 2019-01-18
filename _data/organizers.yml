@@ -77,6 +77,17 @@
       icon: graduation-cap
       name: OrcID
 
+- name: Bo Feng
+  pic: /img/people/fengb.jpg
+  role: Technical Program Committee
+  src: https://www.anl.gov/profile/bo-feng
+  url: https://www.anl.gov/profile/bo-feng
+  description: 'Bo Feng is a reactor and fuel cycle analysis expert at Argonne National Laboratory. His research has focused primarily on reactor physics analysis, advanced reactor core design, radiation transport, and fuel cycle systems modeling. Currently, he is leading Argonne’s research activities for NNSA’s Pu Disposition program, coordinating various MSR modeling and simulation efforts, and supporting DOE-NE’s Systems Analysis and Integration campaign as the lead developer of the dynamic fuel cycle systems code DYMOND. Bo has received several laboratory and national level awards for his research including Best Paper of 2009 (ANS THD), DOE’s Fuel Cycle R&D Excellence Award (2014), and Argonne Director’s Award (2016). He also served in the ANS RPD Program Committee (2014-2017). During his studies at M.I.T., he performed research in reactor physics, reduced moderation boiling water reactors, and nitride fuel performance.'
+  social:
+    - url: mailto:bofeng@anl.gov
+      icon: envelope-o
+      name: Email
+
 - name: Firstname Lastname
   pic: /img/people/you.png
   role: Technical Program Committee
