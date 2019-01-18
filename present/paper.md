@@ -1,7 +1,7 @@
 ---
 layout: manual
 title: Submit a Full Paper
-subtitle: "Authors of accepted abstracts will be invited to submit a full 
+subtitle: "Authors of accepted abstracts will be invited to optionally submit a full 
 paper."
 permalink: /present/paper
 ---
