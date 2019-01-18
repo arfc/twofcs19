@@ -39,6 +39,4 @@
   subcategories:
     - subtitle: "Schedule"
       suburl: "/program/schedule/"
-    - subtitle: "Presentations"
-      suburl: "/program/presentations"
 
