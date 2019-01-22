@@ -88,6 +88,20 @@
       icon: envelope-o
       name: Email
 
+- name: Romarie Morales Rosado
+  pic: /img/people/moralesr.png
+  role: Technical Program Committee
+  src: https://www.pnnl.gov/science/staff/staff_info.asp?staff_num=9026
+  url: https://www.pnnl.gov/science/staff/staff_info.asp?staff_num=9026
+  description: 'Scientist, Applied Statistics and Computational Modeling, Pacific Northwest National Laboratory'
+  social:
+    - url: mailto:Romarie.morales@pnnl.gov
+      icon: envelope-o
+      name: Email
+    - url: https://scholar.google.com/citations?user=K88t8NYAAAAJ&hl=en
+      icon: graduation-cap
+      name: Google Scholar
+
 - name: Firstname Lastname
   pic: /img/people/you.png
   role: Technical Program Committee
