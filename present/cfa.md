@@ -17,7 +17,7 @@ topics, simulation design, simulator tool strategies.
 
 ## Organizers
 
-TWOFCS19 organizers are listed on [this section of website](./about/organizers).
+TWOFCS19 organizers are listed on [this section of website](../../about/organizers).
 
 ## Location
 
@@ -27,8 +27,8 @@ the website](./attend/location).
 
 ## Deadlines
 
-- **Abstract Deadline:** February 14, 2019
-- **Full Paper Deadline:** June 1, 2019
+- **Abstract Deadline:** March 1, 2019
+- **Optional Full Paper Deadline:** June 1, 2019
 - **Registration Deadline:** June 1, 2019
 - **Workshop:** June 26-28, 2019
 
@@ -36,23 +36,21 @@ the website](./attend/location).
 
 Registration for this workshop has no fee. Please register so that the 
 organizers may obtain a headcount, print badges, and keep you up to date. 
-Registration may be submitted [here](./attend/register). 
-
-## Abstract Deadline
-
-Participants willing to present an oral contribution should submit an abstract 
-by **February 14, 2019**.
+Registration may be submitted [here](../../attend/register). 
 
 ## Abstract Format
 
 Please submit a plain text abstract of approximately 400 words (or 3000 
-characters) to the [abstract submission form](./present/abstract).
+characters) to the [abstract submission form](../abstract).
 
 
 The purpose of the submitted abstracts should be to spark a discussion on a 
 particular topic, answer questions from the attendees on the speaker's topic, 
 and enable communal decision making on what areas of research are challenging 
 or interesting. 
+
+Authors of accepted abstracts will be invited to *optionally* submit a full 
+length paper which may be considered for a special issue in Nuclear Technology.
 
 
 ## Topics of Interest
