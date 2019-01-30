@@ -23,7 +23,7 @@ TWOFCS19 organizers are listed on [this section of website](../../about/organize
 
 The workshop will be in Urbana, IL at the University of Illinois at 
 Urbana-Champaign. More details about the venue can be found on [this section of 
-the website](./attend/location).
+the website](../../attend/location).
 
 ## Deadlines
 
@@ -61,7 +61,7 @@ Talks on the following topics are encouraged.
 Describe code-to-code benchmarking efforts, propose challenge problems, identify lessons learned in benchmarking efforts, or identify benchmarking needs
 ### Incorporation of Machine Learning and Optimization
 Introduce ways in which machine learning algorithms, optimization methods, and other data science approaches have been or could be used to improve simulator behavior, results, predictive analysis, and optimization.
-### Transition scenarios studies
+### Transition scenario studies
 Reveal scenario descriptions and simulation results in the category of long-term technology transition, discuss modeling challenges for simulations of this kind, etc.
 ### Nonproliferation Applications and Modeling Approaches
 Discuss approaches to modeling shadow fuel cycles, simulating diversion detection scenarios, calculating nonproliferation metrics, and other fuel cycle simulator contributions to nonproliferation applications.
