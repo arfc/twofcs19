@@ -51,6 +51,12 @@
     - url: https://github.com/bam241
       icon: github-alt
       name: Github
+    - url: https://www.linkedin.com/in/baptiste-mouginot-75992520
+      icon: linkedin
+      name: LinkedIn
+    - url: https://www.researchgate.net/profile/Baptiste_Mouginot
+      icon: graduation-cap
+      name: ResearchGate
 
 - name: Nicolas Tholliere
   pic: /img/people/thollieren.jpg
