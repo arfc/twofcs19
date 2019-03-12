@@ -102,6 +102,37 @@
       icon: graduation-cap
       name: Google Scholar
 
+- name: Ross Hays
+  pic: /img/people/haysr.png
+  role: Technical Program Committee
+  src: https://bios.inl.gov/Lists/Researcher/DisplayOverrideForm.aspx?ID=283
+  url: https://bios.inl.gov/Lists/Researcher/DisplayOverrideForm.aspx?ID=283
+  description: 'Environmental Engineer at Idaho National Laboratory working in the system dynamics and analysis group'
+  social:
+    - url: mailto:ross.hays@inl.gov
+      icon: envelope-o
+      name: Email
+    - url: https://RossDHays
+      icon: github-alt
+      name: Github
+    - url: https://www.linkedin.com/in/rosshays
+      icon: linkedin
+      name: LinkedIn
+
+- name: Guillaume Krivtchik
+  pic: /img/people/you.png
+  role: Technical Program Committee
+  src: 
+  url: 
+  description: 'Research engineer, CEA'
+  social:
+    - url: mailto:guillaume.krivtchik@cea.fr
+      icon: envelope-o
+      name: Email
+    - url: https://www.linkedin.com/in/guillaume-krivtchik-29b96693
+      icon: linkedin
+      name: LinkedIn
+
 - name: Firstname Lastname
   pic: /img/people/you.png
   role: Technical Program Committee
