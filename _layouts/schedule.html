@@ -35,9 +35,21 @@ layout: default
                                         {% if topic.slides %}<p><i class="fa fa-image"></i> <a href="{{ topic.slides }}"> {{ topic.slides }}</a></p>{% endif %}
                                         {% if topic.paper %}<p><i class="fa fa-file-text-o"></i> <a href="{{ topic.paper }}">{{ topic.paper }}</a></p>{% endif %}
                                         </div>
-                                        {% if topic.abstract %}<div class="col-md-6">
+                                        {% if topic.abstract %}
+                                         <button class="btn btn-primary" 
+                                                        type="button" 
+                                                        data-toggle="collapse" 
+                                                        data-target="#{{ forloop.index }}-abs" 
+                                                        aria-expanded="false" 
+                                                        aria-controls="{{ forloop.index }}-abs">abstract</button>
+                                        <!--<div class="collapse" id="{{ forloop.index }}-abs">
                                                 <p class="text-muted" >{{ topic.abstract }}</p>
-                                        </div>{% endif %}
+                                        </div>-->
+                                        {% assign abs = topic.abstract %}
+                                        <div class="collapse" id="{{ forloop.index }}-abs">
+                                                <p class="col-md-6 text-muted" >{{ abs }}</p>
+                                        </div>
+                                        {% endif %}
                                 </div>
                                 {% endfor %}
                         </div>
