@@ -16,7 +16,7 @@ layout: default
         {% for day in site.data.program %}
         <div class="container">
                 <div class="row">
-                        <center><button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#{{ forloop.index }}" aria-expanded="false" aria-controls="{{ forloop.index }}">
+                        <center><button class="btn btn-primary btn-block" type="button" data-toggle="collapse" data-target="#{{ forloop.index }}" aria-expanded="false" aria-controls="{{ forloop.index }}">
                         {{ day.date }}
                         </button>
                         </center>
@@ -28,28 +28,43 @@ layout: default
                                         <h4>{{ topic.time }}</h4>
                                         {% if topic.session %}<p><i class="fa fa-atom"> {{ topic.session }}</i></p>{% endif %}
                                         </div>
-                                        <div class="col-md-4">
+                                        <div class="col-md-6">
                                         <h5>{{ topic.title }}</h5>
-                                        {% if topic.presenter %}<p><i class="fa f-user"> {{ topic.presenter }}</i></p>{% endif %}
+                                        {% if topic.presenter %}<p>
+                                        <i class="fa fa-user"> </i>
+                                        Presenter:
+                                        {{ topic.presenter }}</p>{% endif %}
                                         {% if topic.type %}<p><i class="fa fa-comment"> {{ topic.type }}</i></p>{% endif %}
-                                        {% if topic.slides %}<p><i class="fa fa-image"></i> <a href="{{ topic.slides }}"> {{ topic.slides }}</a></p>{% endif %}
-                                        {% if topic.paper %}<p><i class="fa fa-file-text-o"></i> <a href="{{ topic.paper }}">{{ topic.paper }}</a></p>{% endif %}
                                         </div>
+                                        <div class="col-md-4 text-right">
+                                        {% if topic.slides %}
+                                                <a href="{{ topic.slides }}" class="btn 
+                                                btn-primary" role="button"> <i 
+                                                        class="fa 
+                                                        fa-image"></i> 
+                                                        slides</a>
+                                        {% endif %}
+                                        {% if topic.paper %}
+                                        <a href="{{ topic.paper }}" class="btn 
+                                                btn-primary" role="button">
+                                                <i class="fa fa-file-pdf-o"></i> 
+                                                        PDF</a>
+                                        {% endif %}
                                         {% if topic.abstract %}
-                                         <button class="btn btn-primary" 
+                                                <button class="btn btn-primary" 
                                                         type="button" 
                                                         data-toggle="collapse" 
                                                         data-target="#{{ forloop.index }}-abs" 
                                                         aria-expanded="false" 
-                                                        aria-controls="{{ forloop.index }}-abs">abstract</button>
-                                        <!--<div class="collapse" id="{{ forloop.index }}-abs">
-                                                <p class="text-muted" >{{ topic.abstract }}</p>
-                                        </div>-->
+                                                        aria-controls="{{ forloop.index }}-abs">
+                                                        <i class="fa fa-file-text-o"></i> txt
+                                                </button> 
                                         {% assign abs = topic.abstract %}
                                         <div class="collapse" id="{{ forloop.index }}-abs">
-                                                <p class="col-md-6 text-muted" >{{ abs }}</p>
+                                                <p class="text-muted" >{{ abs }}</p>
                                         </div>
                                         {% endif %}
+                                        </div>
                                 </div>
                                 {% endfor %}
                         </div>
