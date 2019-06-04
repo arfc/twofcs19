@@ -1,378 +1,262 @@
-- date: "June 26, 2019"
-  active:
-  - title: "Breakfast and Registration"
-    presenter: ""
-    coauthors: ""
-    session: ""
-    time: "8:00"
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
 
+- date: "June 26, 2019"
+  active: 
+  - title: "Breakfast and Registration"
+    time: '8:00'
   - title: "Welcome & History"
     presenter: "Kathryn Huff"
     coauthors: "Organizers"
-    session: ""
-    time: "9:00"
-    slides: "/pres/01-huff-welcome.pdf"
-    paper: "/papers/01-huff-welcome.pdf"
-    abstract: ""
-
+    time: '9:00'
+    slides: '/pres/01-huff-welcome.pdf'
+    abstract: "None"
   - title: "Recent developments of the DYMOND code"
     presenter: "Bo Feng"
     coauthors: "Cedric Senac, Hugo Thierry, Gwendolyn Chee"
     session: "Simulator Developments and Capabilities"
-    time: "9:15"
-    slides: "/pres/02-feng-recent.pdf"
-    paper: "/papers/02-feng-recent.pdf"
-    abstract: "DYMOND (Dynamic Model of Nuclear Development) is a nuclear fuel cycle system dynamics model run within the iThink/Stella software with Microsoft Excel templates for data input/output. The code was first developed in 2001 at Argonne National Laboratory for the Gen IV Fuel Cycle Crosscut Group activities and is a predecessor to several system dynamics codes (DYMOND-US, DANESS, and VISION) that have been supported through DOE’s various nuclear energy programs, including the Systems Analysis & Integration (SA&I) Campaign, previously known as the Fuel Cycle Options Campaign.  Starting in 2012, the 2001 version of DYMOND has been heavily updated, adding user-enabled functionalities while minimizing hidden automation, thereby maintaining its relative simplicity and the reproducibility of its results. This updated version of DYMOND has been extensively used since 2013 to provide the information needed for the SA&I Campaign’s transition analysis work. Many new functionalities were added to address specific modeling and simulation needs that have arisen from the SA&I Campaign’s transition analysis activities.  Recent improvements made to the code include a much friendlier Excel user interface, changing the capacity demand input to energy demand, fully disabling fuel mass flows during the first cycle, adding the ability to reprocess fuel as needed with dynamic input, etc. In addition, several improvements are currently under implementation, such as isotopic formulation applied using C++ system commands, economic feedback models, and automated sensitivity and uncertainty quantification. The presentation will provide an overview of these improvements and show a few examples of applications of some of the most recently developed features and their relevance."
-
+    time: '9:15'
+    abstract: "DYMOND (Dynamic Model of Nuclear Development) is a nuclear fuel cycle system dynamics model run within the iThink/Stella software with Microsoft Excel templates for data input/output. The code was first developed in 2001 at Argonne National Laboratory for the Gen IV Fuel Cycle Crosscut Group activities and is a predecessor to several system dynamics codes (DYMOND-US, DANESS, and VISION) that have been supported through DOE’s various nuclear energy programs, including the Systems Analysis & Integration (SA&I) Campaign, previously known as the Fuel Cycle Options Campaign.  Starting in 2012, the 2001 version of DYMOND has been heavily updated, adding user-enabled functionalities while minimizing hidden automation, thereby maintaining its relative simplicity and the reproducibility of its results. This updated version of DYMOND has been extensively used since 2013 to provide the information needed for the SA&I Campaign’s transition analysis work. Many new functionalities were added to address specific modeling and simulation needs that have arisen from the SA&I Campaign’s transition analysis activities.  Recent improvements made to the code include a much friendlier Excel user interface, changing the capacity demand input to energy demand, fully disabling fuel mass flows during the first cycle, adding the ability to reprocess fuel as needed with dynamic input, etc. In addition, several improvements are currently under implementation, such as isotopic formulation applied using C++ system commands, economic feedback models, and automated sensitivity and uncertainty quantification. The presentation will provide an overview of these improvements and show a few examples of applications of some of the most recently developed features and their relevance. "
   - title: "COSI7: the new CEA nuclear fuel cycle simulation tool"
     presenter: "Guillaume Krivtchik"
-    coauthors: ""
     session: "Simulator Developments and Capabilities"
-    time: "9:30"
-    slides: "/pres/03-krivtchik-cosi7:.pdf"
-    paper: "/papers/03-krivtchik-cosi7:.pdf"
-    abstract: "COSI, the CEA nuclear fuel cycle scenario simulator, has been developed for 30 years at Cadarache. It is used in the frame of scenario studies in order to model prospective nuclear scenarios and analyze the impact of decisions on the fuel cycle. Its advanced physical models allow using COSI for precise tracking of nuclides of interest throughout the nuclear fuel cycle over long periods of time. Studies performed with COSI include “industrial” scenarios made in partnership with industrial partners, and multi-annual energy programming scenarios made for the French ministry of Ecology.  COSI7, the newest version of the code, has been developed in order to enhance the user-friendliness and improve its modeling capabilities. The new developments of COSI7 include: •        Complete overhaul of the GUI o        Revisited expert (bottom-up) GUI for efficient scenario building process; o        News decision-maker (top-down) GUI designed for high user-friendliness; •        Improvements on the post-processing o        Real-time post-processing to ease the iterative scenario building process; o        New post-processing: spent fuel cooling time distribution (balance and inventory); •        Complete overhaul of the fuel fabrication o        Fuel fabrication anticipation algorithm for smoothened material balance; o        Fresh fuel storage; o        New physical model: recipes revisited, to smoothen Pu content despite equivalence principle; •        Improvement of the waste path o        New vitrification model: sampling rate for temporal homogenization of waste; •        Improvement of the code adaptability o        Compatibility with external depletion codes; •        Improvement of the code performance o        Optimized simulation algorithm for reduced computation time; o        Reduced memory RAM usage; o        Possibility to run simulator on a server to mutualize depletion results.  COSI7 will be used as the CEA reference nuclear fuel cycle simulation code starting January 2020."
-
+    time: '9:30'
+    abstract: "COSI, the CEA nuclear fuel cycle scenario simulator, has been developed for 30 years at Cadarache. It is used in the frame of scenario studies in order to model prospective nuclear scenarios and analyze the impact of decisions on the fuel cycle. Its advanced physical models allow using COSI for precise tracking of nuclides of interest throughout the nuclear fuel cycle over long periods of time. Studies performed with COSI include “industrial” scenarios made in partnership with industrial partners, and multi-annual energy programming scenarios made for the French ministry of Ecology.  COSI7, the newest version of the code, has been developed in order to enhance the user-friendliness and improve its modeling capabilities. The new developments of COSI7 include: •        Complete overhaul of the GUI o        Revisited expert (bottom-up) GUI for efficient scenario building process; o        News decision-maker (top-down) GUI designed for high user-friendliness; •        Improvements on the post-processing o        Real-time post-processing to ease the iterative scenario building process; o        New post-processing: spent fuel cooling time distribution (balance and inventory); •        Complete overhaul of the fuel fabrication o        Fuel fabrication anticipation algorithm for smoothened material balance; o        Fresh fuel storage; o        New physical model: recipes revisited, to smoothen Pu content despite equivalence principle; •        Improvement of the waste path o        New vitrification model: sampling rate for temporal homogenization of waste; •        Improvement of the code adaptability o        Compatibility with external depletion codes; •        Improvement of the code performance o        Optimized simulation algorithm for reduced computation time; o        Reduced memory RAM usage; o        Possibility to run simulator on a server to mutualize depletion results.  COSI7 will be used as the CEA reference nuclear fuel cycle simulation code starting January 2020.  "
   - title: "Developing back-end capabilities in CYCLUS, a fuel cycle simulator"
     presenter: "Gwendolyn Chee"
     coauthors: "Kathryn Huff"
     session: "Simulator Developments and Capabilities"
-    time: "9:45"
-    slides: "/pres/04-chee-developing.pdf"
-    paper: "/papers/04-chee-developing.pdf"
+    time: '9:45'
     abstract: "    Implementation of a nuclear waste disposal plan and minimizing the cost of the nuclear fuel cycle are crucial to the future use of nuclear power [1]. If the U.S. nuclear industry does not find an effective and safe plan to manage the waste, the nuclear industry will continue facing political and social opposition. It has been shown that permanent underground disposal of nuclear waste provides excellent isolation from the human-inhabited environment [2]. Therefore, this work relies on the expectation that the chosen method of long term disposal of spent nuclear fuel (SNF) will be a deep geologic repository.     Previous work towards the wicked problem of getting spent nuclear fuel from reactor sites to a final waste repository focuses on how different waste acceptance strategies impact economic expenditure [3], pre-emplacement surface storage time, waste package size, and repository footprint [4]. Previous work in studying repository loading have used spent fuel assemblies that have an average burn up composition [5] to evaluate the heat load in the repository [4].     Therefore, instead of using average SNF composition, this work aims to use U.S. historical SNF inventory data [6] in various simulations to study how waste acceptance strategies impacts the heat distribution in the repository. This research aims to contribute realistic modeling tools for simulating how waste acceptance strategies impact the heat distribution in the repository since most of the current research is focused on the economic and transportation components of the problem.     These simulations will be performed using Cyclus, an agent-based fuel cycle simulation framework. In Cyclus, each facility in the fuel cycle is modeled individually and they interact with one another as independent agents. The goal of this work is to develop a waste conditioning agent, an interim storage agent and a waste repository agent to provide Cyclus with the capabilities to run these simulations. Previously, a repository agent was created [7], however, it is no longer compatible with the current Cyclus and did not have the capabilities to run these proposed simulations.      The conditioning facility packages spent fuel assemblies into a waste canister that has user dened properties such as radius length and material thermal conductivity. The repository facility emplaces waste canisters in the repository in a systematic order. It only accepts canisters that results in the repository remaining below the thermal limit of the host geologic media. It provides the user with a spatial and time dependent temperature distribution in the repository. The interim storage facility is the brains of the operation and gives waste canisters to the repository facility to emplace based on a waste acceptance strategy. First-in-first-out and last-in-first-out fuel allocation strategies are considered."
-
   - title: "Discussion"
-    presenter: ""
-    coauthors: ""
-    session: ""
-    time: "10:00"
-
+    time: '10:00'
   - title: "Break"
-    presenter: ""
-    coauthors: ""
-    session: ""
-    time: "10:45"
-
+    time: '10:45'
   - title: "Potentialities of SFR Pu burners for the reduction of in-cycle fissile inventories"
     presenter: "Xavier Doligez"
-    coauthors: ""
     session: "Scenario Studies"
-    time: "11:00"
-    slides: "/pres/07-doligez-potentialities.pdf"
-    paper: "/papers/07-doligez-potentialities.pdf"
-    abstract: "Fuel cycle simulation studies aim at exploring potentialities of different strategies of the future of nuclear industry. Concerning natural uranium resources this future is rather uncertain as it will greatly depend on future reactor construction worldwide. To cope a possible lack of natural uranium, some countries like France, try to develop breeder reactors such as sodium cooled fast reactors. Indeed, this kind of fuel cycle strategy allows a complete decoupling between electricity production with nuclear power plants and uranium consumption. The major drawback is the very high quantity of plutonium needed for the operation of such reactors. As an example, 5 tons of plutonium are needed to load an ASTRID-like reactor that produce 600 electrical MW during 7 years. The fuel, after irradiation needs 5 years of cooling and 2 years of fabrication. Finally, more than 10 tons of plutonium or needed to operate a break-even ASTRID. However, if there is no global nuclear expansion, plutonium will have to be consider eventually as a nuclear waste. In fact, this element is the most-radiotoxic element of nuclear spent fuel.  Some recent development of sodium cooled fast reactors have identified some configurations that burn quite efficiently the plutonium. This work presents the potentialities of such burners to radiotoxicity reduction in phase out studies or plutonium in-cycle stabilization with a minimum of in-cycle radiotoxicity in symbiotic fleet made of PWR and SFR. Two type of cases are considered: the first one will imply only a single transition with deployment of burner SFR and the second one will imply a two steps deployment with some break-even reactors and then burners SFR. Results are then compared to open fuel cycle in PWR and to plutonium mono-recycling in Mox Fuel.  All the calculations are performed with the CLASS package with the latest reactor models that have been developed specially for this kind of studies."
-
+    time: '11:00'
+    abstract: "Fuel cycle simulation studies aim at exploring potentialities of different strategies of the future of nuclear industry. Concerning natural uranium resources this future is rather uncertain as it will greatly depend on future reactor construction worldwide. To cope a possible lack of natural uranium, some countries like France, try to develop breeder reactors such as sodium cooled fast reactors. Indeed, this kind of fuel cycle strategy allows a complete decoupling between electricity production with nuclear power plants and uranium consumption. The major drawback is the very high quantity of plutonium needed for the operation of such reactors. As an example, 5 tons of plutonium are needed to load an ASTRID-like reactor that produce 600 electrical MW during 7 years. The fuel, after irradiation needs 5 years of cooling and 2 years of fabrication. Finally, more than 10 tons of plutonium or needed to operate a break-even ASTRID. However, if there is no global nuclear expansion, plutonium will have to be consider eventually as a nuclear waste. In fact, this element is the most-radiotoxic element of nuclear spent fuel.  Some recent development of sodium cooled fast reactors have identified some configurations that burn quite efficiently the plutonium. This work presents the potentialities of such burners to radiotoxicity reduction in phase out studies or plutonium in-cycle stabilization with a minimum of in-cycle radiotoxicity in symbiotic fleet made of PWR and SFR. Two type of cases are considered: the first one will imply only a single transition with deployment of burner SFR and the second one will imply a two steps deployment with some break-even reactors and then burners SFR. Results are then compared to open fuel cycle in PWR and to plutonium mono-recycling in Mox Fuel.  All the calculations are performed with the CLASS package with the latest reactor models that have been developed specially for this kind of studies.   "
   - title: "Simulation of recovered Uranium management options"
     presenter: "Ross Hays"
-    coauthors: ""
     session: "Scenario Studies"
-    time: "11:15"
-    slides: "/pres/08-hays-simulation.pdf"
-    paper: "/papers/08-hays-simulation.pdf"
-    abstract: "Recent trends in advanced reactor development and fuel cycle transition analysis have recognized the utility of high-assay low-enriched-uranium (HALEU) with U-235 enrichments between 5 and 20% [1].  For advanced reactors, it permits higher burnups, smaller sizes, and greater safety margins.  For transitions to a closed fuel cycle, it offers an alternative source of fissile material that is independent of reprocessing facilities, thus improving system robustness.  Upon discharge from the reactor, this material will still have a sizeable – and valuable – fraction of U-235 remaining.   The reuse options for the recovered uranium (RU) fraction will be considerably wider than that of either LWR spent fuel or traditional Pu-based fuel designs, where the U-235 fraction is less than 1%.  For this presentation, several RU management options and modeling approaches are compared for a variety of RU supply and demand scenarios.  Scenarios include cases where both the quantity and enrichment of available RU material is either in excess or is insufficient relative to the ongoing demand for fuel make-up.  Available management options include up- or down-blending with either depleted, natural, or other new or recovered HALEU stocks and re-enrichment through mechanical means.   These options will be compared in terms of cost, uranium utilization, and waste generation for representative examples of each scenario using the VISION fuel cycle model."
-
+    time: '11:15'
+    abstract: "Recent trends in advanced reactor development and fuel cycle transition analysis have recognized the utility of high-assay low-enriched-uranium (HALEU) with U-235 enrichments between 5 and 20% [1].  For advanced reactors, it permits higher burnups, smaller sizes, and greater safety margins.  For transitions to a closed fuel cycle, it offers an alternative source of fissile material that is independent of reprocessing facilities, thus improving system robustness.  Upon discharge from the reactor, this material will still have a sizeable – and valuable – fraction of U-235 remaining.   The reuse options for the recovered uranium (RU) fraction will be considerably wider than that of either LWR spent fuel or traditional Pu-based fuel designs, where the U-235 fraction is less than 1%.  For this presentation, several RU management options and modeling approaches are compared for a variety of RU supply and demand scenarios.  Scenarios include cases where both the quantity and enrichment of available RU material is either in excess or is insufficient relative to the ongoing demand for fuel make-up.  Available management options include up- or down-blending with either depleted, natural, or other new or recovered HALEU stocks and re-enrichment through mechanical means.   These options will be compared in terms of cost, uranium utilization, and waste generation for representative examples of each scenario using the VISION fuel cycle model.  "
   - title: "Discussion"
-    presenter: ""
-    coauthors: ""
     session: "Scenario Studies"
-    time: "11:30"
-
+    time: '11:30'
   - title: "Lunch"
-    presenter: ""
-    coauthors: ""
-    session: ""
-    time: "12:15"
-
+    time: '12:15'
   - title: "Coupled class and Donjon5 3D full core calculations and comparison with the neural net approach for fuel cycles involving MOX fueled PWRs"
     presenter: "M. Guillet"
-    coauthors: ""
     session: "Physics & Technology Modeling"
-    time: "13:30"
-    slides: "/pres/11-guillet-coupled.pdf"
-    paper: "/papers/11-guillet-coupled.pdf"
-    abstract: "Today's fuel cycle simulation tools are based either on fixed recipes or on infinite assembly calculations while fuel composition is a priori unknown and full core computations are essential to take into account in-core heterogeneous effects. However, solving the neutron multigroup transport equation for finite cores at each scenario calculation node is not an option considering the required computing time.   CLASS (Core Library for Advanced Simulation Scenarios) is a dynamic fuel cycle simulation code that uses neural networks to produce nuclear data and physical quantities such as multiplication factors or isotopic compositions for whole cores from infinite assembly burnup calculations.  The objective of this work is to replace neural networks with 3D full core diffusion calculations coupled directly to CLASS. The diffusion code considered is DONJON5. This code allows interpolation of burnup dependent diffusion coefficients and cross sections, previously generated by DRAGON5, a deterministic lattice calculation code. The database is sampled with irradiation levels, enrichment rates in fissile materials, boron concentrations and proportions of plutonium isotopes and americium 241 in the total plutonium vector. More than 22500 such lattice calculations are processed.  This presentation shows preliminary results for the comparison of the CLASS neural network approach and the new DONJON5/CLASS coupled system. A simple scenario involving UOX (Uranium Oxides) and MOX (Mixed Oxides) fueled PWRs is considered. For consistency, both simulations use the same DRAGON5 multiparameter database. Our work also quantifies the importance of full core calculations on plutonium and minor actinides contents as well as waste management strategies in fuel cycle simulations. Complete results will be presented in the full paper."
-
+    time: '13:30'
+    abstract: "Today's fuel cycle simulation tools are based either on fixed recipes or on infinite assembly calculations while fuel composition is a priori unknown and full core computations are essential to take into account in-core heterogeneous effects. However, solving the neutron multigroup transport equation for finite cores at each scenario calculation node is not an option considering the required computing time.   CLASS (Core Library for Advanced Simulation Scenarios) is a dynamic fuel cycle simulation code that uses neural networks to produce nuclear data and physical quantities such as multiplication factors or isotopic compositions for whole cores from infinite assembly burnup calculations.  The objective of this work is to replace neural networks with 3D full core diffusion calculations coupled directly to CLASS. The diffusion code considered is DONJON5. This code allows interpolation of burnup dependent diffusion coefficients and cross sections, previously generated by DRAGON5, a deterministic lattice calculation code. The database is sampled with irradiation levels, enrichment rates in fissile materials, boron concentrations and proportions of plutonium isotopes and americium 241 in the total plutonium vector. More than 22500 such lattice calculations are processed.  This presentation shows preliminary results for the comparison of the CLASS neural network approach and the new DONJON5/CLASS coupled system. A simple scenario involving UOX (Uranium Oxides) and MOX (Mixed Oxides) fueled PWRs is considered. For consistency, both simulations use the same DRAGON5 multiparameter database. Our work also quantifies the importance of full core calculations on plutonium and minor actinides contents as well as waste management strategies in fuel cycle simulations. Complete results will be presented in the full paper. "
   - title: "Parameter interpolation for MSR core physics modules"
     presenter: "K. Anderson"
-    coauthors: ""
     session: "Physics & Technology Modeling"
-    time: "13:45"
-    slides: "/pres/12-anderson-parameter.pdf"
-    paper: "/papers/12-anderson-parameter.pdf"
+    time: '13:45'
     abstract: "A major challenge for the deployment of molten salt reactors (MSRs) is the establishment of nuclear material and accountability (MC&A) methods. To address this a modular framework that will allow the testing of MC&A methods on a variety of liquid fueled MSRs design is being developed. The framework will include many modules (reactor core, off-gas processing, etc.) that will be coupled together through the mass flow of the fuel salt. The design space for liquid fueled molten salt reactors is vast, encompassing both thermal and fast neutron spectrums, thorium-uranium and uranium-plutonium fuel cycles, breeder and burner configurations, amongst other design parameters. Semi-generic reactor core physics modules are being created to encompass these significant design parameters. Each reactor core module will include pre-generated reactor cross section libraries that can be used to solve for the isotopic changes in the fuel salt in the core. These libraries will have the ability to be interpolated over with the interpolation space including additional reactor core parameters such as: salt type, salt-to-moderator ratio, gas-processing, burnup, etc. This will be done by interpolating over transition matrices between libraries. Appropriate spacing for the interpolation parameters must be found. To accomplish this, multiple transport-depletion calculations are being performed while sweeping over all relevant parameters. The change between transition matrices while a parameter is being swept over is calculated. The interpolation parameter spacing will then be correlated to the sensitivity of the transition matrix to the change of the parameter."
-
   - title: "Development of multi-zone fuel loading model for scenario"
     presenter: "J.B. Clavel"
-    coauthors: ""
     session: "Physics & Technology Modeling"
-    time: "14:00"
-    slides: "/pres/13-clavel-development.pdf"
-    paper: "/papers/13-clavel-development.pdf"
-    abstract: "Many scenario studies conducted by several countries consider the progressive deployment of low void effect Sodium-cooled Fast Reactor (SFR) [1]. Different options are investigated regarding the deployment time of this kind of Generation IV reactor, depending on the global nuclear energy devel-opment and the national energy mix strategies. In France, the SFR core design often used in this type of scenario is based on the 600 MWe ASTRID concept developed by the CEA and its industrial part-ners [2]. To reach a negative void coefficient, the core is divided in two radial parts: an inner and an outer core, which alternate different fertile and fissile zones.  One challenge to simulate fuel cycle with fuel reprocessing is to consider the evolution of the materi-als to be recycled over time. Indeed, spent fuel compositions vary at each reprocessing as it de-pends of each fuel history (in which reactor it has been irradiated, burn-up achieved, cooling time…). Hence, to build a fresh fuel adapted to one reactor specificities, the CLASS (Core Library for Ad-vanced Scenario Simulation) software [3], a dynamic fuel cycle simulation code developed by CNRS in collaboration with IRSN, uses dedicated fuel loading models.   In the case of this SFR, the aim is to keep the fuel heterogeneity of the core. To do that, the devel-opment of a new dedicated fresh fuel loading model taking into account the different fuel zones of the reactor was needed. This model is based on the reactor's neutron characteristics and it is usable for a wide variability of spent fuels to be recycled. In this way, for a given isotopic composition, the Pu contents of both the inner and the outer core are iteratively adjusted to reach a target power distri-bution in the core and a target multiplication factor (keff) at the beginning of cycle.   An analysis of this SFR behavior during irradiation shows a relation between the power distribution and the ratio of Pu contents, between the inner and outer core. This relation is used by the model to calculate the initial Pu contents for a given isotopic composition assuring the target power distribu-tion. Then, to determine the keff associated to that specific fresh fuel composition, the model uses Artificial Neural Network (ANN) trained on a corresponding databank. This databank is composed of 1000 full core depletion Monte Carlo simulations generated with the VESTA code [4], in which MCNP is used as the transport solver. Each calculation differs from the other by the initial fresh fuel sam-pled in the parameter space of compositions covering many potential SFR fuel management strate-gies.   This new model completes the implementation of a previous multi-zone fuel irradiation model devel-oped for this SFR [5]. Thanks to these two multi-zone models, the simulation of scenarios integrating multi-zone SFR with the code CLASS shows that the plutonium breeder, break-even or burner SFR property is highly dependent on its fresh fuel composition."
-
+    time: '14:00'
+    abstract: "Many scenario studies conducted by several countries consider the progressive deployment of low void effect Sodium-cooled Fast Reactor (SFR) [1]. Different options are investigated regarding the deployment time of this kind of Generation IV reactor, depending on the global nuclear energy devel-opment and the national energy mix strategies. In France, the SFR core design often used in this type of scenario is based on the 600 MWe ASTRID concept developed by the CEA and its industrial part-ners [2]. To reach a negative void coefficient, the core is divided in two radial parts: an inner and an outer core, which alternate different fertile and fissile zones.  One challenge to simulate fuel cycle with fuel reprocessing is to consider the evolution of the materi-als to be recycled over time. Indeed, spent fuel compositions vary at each reprocessing as it de-pends of each fuel history (in which reactor it has been irradiated, burn-up achieved, cooling time…). Hence, to build a fresh fuel adapted to one reactor specificities, the CLASS (Core Library for Ad-vanced Scenario Simulation) software [3], a dynamic fuel cycle simulation code developed by CNRS in collaboration with IRSN, uses dedicated fuel loading models.   In the case of this SFR, the aim is to keep the fuel heterogeneity of the core. To do that, the devel-opment of a new dedicated fresh fuel loading model taking into account the different fuel zones of the reactor was needed. This model is based on the reactor's neutron characteristics and it is usable for a wide variability of spent fuels to be recycled. In this way, for a given isotopic composition, the Pu contents of both the inner and the outer core are iteratively adjusted to reach a target power distri-bution in the core and a target multiplication factor (keff) at the beginning of cycle.   An analysis of this SFR behavior during irradiation shows a relation between the power distribution and the ratio of Pu contents, between the inner and outer core. This relation is used by the model to calculate the initial Pu contents for a given isotopic composition assuring the target power distribu-tion. Then, to determine the keff associated to that specific fresh fuel composition, the model uses Artificial Neural Network (ANN) trained on a corresponding databank. This databank is composed of 1000 full core depletion Monte Carlo simulations generated with the VESTA code [4], in which MCNP is used as the transport solver. Each calculation differs from the other by the initial fresh fuel sam-pled in the parameter space of compositions covering many potential SFR fuel management strate-gies.   This new model completes the implementation of a previous multi-zone fuel irradiation model devel-oped for this SFR [5]. Thanks to these two multi-zone models, the simulation of scenarios integrating multi-zone SFR with the code CLASS shows that the plutonium breeder, break-even or burner SFR property is highly dependent on its fresh fuel composition. "
   - title: "Discussion"
-    presenter: ""
-    coauthors: ""
     session: "Physics & Technology Modeling"
-    time: "14:15"
-
+    time: '14:15'
   - title: "Break"
-    presenter: ""
-    coauthors: ""
-    session: ""
-    time: "15:00"
-
+    time: '15:00'
   - title: "The NE-COST website for the economic evaluation of complex nuclear fuel cycles"
     presenter: "Ed Hoffman"
     coauthors: "Francesco Ganda"
     session: "Economics and Policy"
-    time: "15:15"
-    slides: "/pres/16-hoffman-the.pdf"
-    paper: "/papers/16-hoffman-the.pdf"
+    time: '15:15'
     abstract: "This paper illustrates the development and public release of the “NE-COST Website” in July 2018. The objectives of the NE-COST website (which can be reached at https://cnpce.ne.anl.gov/) are primarily to provide a credible source of information on fuel cycle cost to all the interested stakeholders, including, among others, the DOE and the public at large, by providing convenient access to credible source of information on fuel cycle costs and computationally accurate economic quantification of the Levelized Cost of Electricity at Equilibrium (LCAE) − with user-selected cost and financial parameters.  The website utilizes the NE-COST tool (Ganda 2017), which is specifically designed to calculate the LCAE for generic, multi-stage, complex fuel cycles, accounting for uncertainty, and correlations, in the input parameters. The current version of NE-COST website allows the LCAE calculations of three specific nuclear fuel cycle options:  •        Once-through (EG01);  •        Limited fuel cycle based on single recycle (EG13);  •        Continuous recycle fuel cycle (EG23) cycle.  Slidebars are provided to facilitate the input of the parameters. However, users can input values beyond the boundaries of the sliding bars, if so desired, by simply typing the desired value in the boxes next to the sliding bars. The bounds of the sliding bars are obtained from the upper and lower bounds of the relevant cost distributions suggested in the Cost Basis Report. Bar charts of the output results (i.e., the LCAE) are displayed, including a comparison to the reference EG01."
-
-  - title: ""
+  - title: "TBD"
     presenter: "Jason Hansen"
-    coauthors: ""
     session: "Economics and Policy"
-    time: "15:30"
-    slides: "/pres/17-hansen-.pdf"
-    paper: "/papers/17-hansen-.pdf"
-    abstract: ""
-
-  - title: ""
+    time: '15:30'
+    abstract: "TBD"
+  - title: "Re-Assessing Methods to Close the U.S. Nuclear Fuel Cycle"
     presenter: "Brent Dixon"
     coauthors: "J. Hansen, R. Hays, H. Hiruta, J. Peterson-Droogh, T. Fei, B. Feng, F. Ganda, E. Hoffman, T.K. Kim, T. Taiwo, B. Betzler, E. Davidson, A. Worrall"
     session: "Economics and Policy"
-    time: "15:45"
-    slides: "/pres/18-dixon-.pdf"
-    paper: "/papers/18-dixon-.pdf"
-    abstract: "The current once-through nuclear fuel cycle in the U.S. and much of the rest of the world was a direct result of commercialization of water-cooled thermal spectrum reactor technologies developed for nuclear propulsion of submarines.  Studies have consistently shown that a continuous recycle fuel cycle should be much more efficient, theoretically reducing uranium usage by ~99% and reducing waste requiring geologic isolation by ~95%.  This paper explores different potential pathways to establish a continuous recycle fuel cycle system should a decision be made to do so.  Nothing in this paper implies any DOE policy decisions.  The continuous recycle fuel cycle requires fast spectrum reactors to breed fissile fuel material from fertile material, so implementation would require a fleet of new reactors.  Most of the current thermal reactors in the U.S. were built around the same time in the 1970s and 1980s and are anticipated to need replacement in the next 20-40 years.  This presents a unique opportunity to transition to a continuous recycle fuel cycle by replacing some or all of the retiring reactors with fast reactors and initiating used fuel recycling.  The U.S. Department of Energy Office of Nuclear Energy’s Systems Analysis & Integration Campaign, formerly known as the Fuel Cycle Options Campaign, has completed a multi-year effort on nuclear fuel cycle transition analysis focusing on potential pathways to transition from the current nuclear infrastructure to a closed fuel cycle based on fast spectrum reactors that continuously recycle their own fuel. These studies were conducted using subject matter expertise and the fuel cycle systems codes DYMOND, ORION, and VISION, along with numerous reactor physics and economics calculations. The goal was to better understand how to phase out the current nuclear infrastructure that would no longer be needed if such a transition were to occur, while phasing in a fleet of fast reactors and the associated fuel cycle facilities for fuel fabrication and recycling.    The key findings in terms of physics, materials, and infrastructure requirements will be summarized. Some of the major highlights include:  Assuming the continued use of nuclear power in the U.S., transition to a closed fuel cycle based on continuous recycle is feasible to achieve during the time period when the current fleet of reactors need replacement.    The transition requires development of a significant inventory of fissile material to initially fuel the reactors.  Once recycle is established, the ongoing resource requirements would be a less than 1% of current requirements and high level waste mass would be only ~5% of current generation for the same level of energy production.  Two methods for producing the fissile material inventory are from recycle of the used fuel from current thermal reactors or the use of High Assay Low Enriched Uranium (HALEU).  The recycle of thermal reactor used fuel is the traditional approach and used fuel separations facilities are currently operating in France and Russia.  However, this study found that the use of HALEU may be more favorable because it is less constrained and may be more economical.    The presentation will include more information on the differences in scenario flexibility when doing startup with recycled materials versus with HALEU and implications for other scenario analyses and the supporting tools."
-
+    time: '15:45'
+    paper: '/papers/18-dixon-re-assessing.pdf'
+    abstract: "The current once-through nuclear fuel cycle in the U.S. and much of the rest of the world was a direct result of commercialization of water-cooled thermal spectrum reactor technologies developed for nuclear propulsion of submarines.  Studies have consistently shown that a continuous recycle fuel cycle should be much more efficient, theoretically reducing uranium usage by ~99% and reducing waste requiring geologic isolation by ~95%.  This paper explores different potential pathways to establish a continuous recycle fuel cycle system should a decision be made to do so.  Nothing in this paper implies any DOE policy decisions.  The continuous recycle fuel cycle requires fast spectrum reactors to breed fissile fuel material from fertile material, so implementation would require a fleet of new reactors.  Most of the current thermal reactors in the U.S. were built around the same time in the 1970s and 1980s and are anticipated to need replacement in the next 20-40 years.  This presents a unique opportunity to transition to a continuous recycle fuel cycle by replacing some or all of the retiring reactors with fast reactors and initiating used fuel recycling.  The U.S. Department of Energy Office of Nuclear Energy’s Systems Analysis & Integration Campaign, formerly known as the Fuel Cycle Options Campaign, has completed a multi-year effort on nuclear fuel cycle transition analysis focusing on potential pathways to transition from the current nuclear infrastructure to a closed fuel cycle based on fast spectrum reactors that continuously recycle their own fuel. These studies were conducted using subject matter expertise and the fuel cycle systems codes DYMOND, ORION, and VISION, along with numerous reactor physics and economics calculations. The goal was to better understand how to phase out the current nuclear infrastructure that would no longer be needed if such a transition were to occur, while phasing in a fleet of fast reactors and the associated fuel cycle facilities for fuel fabrication and recycling.    The key findings in terms of physics, materials, and infrastructure requirements will be summarized. Some of the major highlights include:  Assuming the continued use of nuclear power in the U.S., transition to a closed fuel cycle based on continuous recycle is feasible to achieve during the time period when the current fleet of reactors need replacement.    The transition requires development of a significant inventory of fissile material to initially fuel the reactors.  Once recycle is established, the ongoing resource requirements would be a less than 1% of current requirements and high level waste mass would be only ~5% of current generation for the same level of energy production.  Two methods for producing the fissile material inventory are from recycle of the used fuel from current thermal reactors or the use of High Assay Low Enriched Uranium (HALEU).  The recycle of thermal reactor used fuel is the traditional approach and used fuel separations facilities are currently operating in France and Russia.  However, this study found that the use of HALEU may be more favorable because it is less constrained and may be more economical.    The presentation will include more information on the differences in scenario flexibility when doing startup with recycled materials versus with HALEU and implications for other scenario analyses and the supporting tools. "
   - title: "Discussion"
-    presenter: ""
-    coauthors: ""
     session: "Economics and Policy"
-    time: "16:00"
-
+    time: '16:00'
   - title: "End of Talks, Break before Dinner"
-    presenter: ""
-    coauthors: ""
-    session: ""
-    time: "16:45"
-
+    time: '16:45'
   - title: "Dinner"
-    presenter: ""
-    coauthors: ""
-    session: ""
-    time: "18:00"
+    time: '18:00'
 - date: "June 27, 2019"
-  active:
+  active: 
   - title: "Breakfast, Registration"
-    presenter: ""
-    coauthors: ""
-    session: ""
-    time: "8:00"
-
+    time: '8:00'
   - title: "Exploration and quantification of the main differences on nuclear fuel cycle simulators"
     presenter: "A Villacorta"
-    coauthors: ""
     session: "Benchmarking Efforts"
-    time: "9:00"
-    slides: "/pres/23-villacorta-exploration.pdf"
-    paper: "/papers/23-villacorta-exploration.pdf"
+    time: '9:00'
     abstract: "Nuclear fuel cycle simulators emerged as powerful and versatile tools that can be used by experts and policy makers in order to address and analyze the key aspects of the nuclear fuel cycles. Motivated by different scientific questions, in the recent years multiple institutions have developed their own tools for studying those aspects of the fuel cycle they considered the most relevant. Consequently, nowadays several fuel cycle codes are used around the world.  Considering this background, the next question is if these codes provide the same results given a fixed set of hypotheses describing a certain nuclear fuel cycle. Additionally, since each code will make use of different interpretation of the assumptions and approaches, this is not an easy task. In this area, multiple benchmarking exercises have been done in the past, leading to the acceptance of some discrepancies in the results. In this work, the quantification of such discrepancies was addressed using a methodology that relies on the theory of uncertainty propagation.  In a first place, two different codes (namely TR_EVOL and ANICCA, developed respectively by CIEMAT and SCK-CEN) were selected for the study of an advanced and realistic nuclear fuel cycle scenario in which the minimization and posterior stabilization of the transuranic inventories was pursued. After a first approach where it was found that the largest source of discrepancy was the interpretation of the specifications, the scenario was iteratively readapted until the point where no differences could be explained by different interpretation of the input parameters.    Once the scenario was finally defined, an uncertainty propagation analysis was done over the most relevant parameters of the simulation following the total Monte Carlo approach, where random sampling is performed over the input parameter space (i.e. the burnups, reactors energies, fabrication contents, etc.). The obtained results will be compared with the differences obtained between the two codes, in such a way that it can be established if the results coming from different codes are compatible with the system uncertainties or in the other hand, they are larger than that."
-
   - title: "The FIT project: improving confidence in fuel cycle model"
     presenter: "Nicolas Thiollière"
-    coauthors: ""
     session: "Benchmarking Efforts"
-    time: "9:15"
-    slides: "/pres/24-thiollière-the.pdf"
-    paper: "/papers/24-thiollière-the.pdf"
+    time: '9:15'
     abstract: "Since the 1990’s, many different fuel cycle systems tools have been developed by several institutions (industrial, engineering, academic, etc.). These tools vary in terms complexity, from a simple spreadsheet model to a complex simulation code framework. These tools have evolved and new tools have been developed to leverage more increasingly powerful computational advancements. Many of these tools have the option to be used at different levels of detail and have the flexibility to be adapted for one specific problem or to any problem related to the nuclear fuel cycle. FIT Project stands for Functionality Isolation Test and aims to focus on dynamic fuel cycle simulators functionalities. Fuel cycle simulators are an essential part of the technical evaluation of the future deployment of innovative nuclear systems. Also, they help identify drivers and interactions between parameters in fuel cycle fleet physics. Finally, these tools produce data for further assessments (economy, safety, non-proliferation, etc.) that can be internal or external to the tool. Many of these tools were developed independently by a single institution and oftentimes by a single individual with limited feedback from an established user community or from other developers. There have been multiple international fuel cycle code benchmarks in the past but these were dedicated to comparing detailed time-dependent results for fully-described fuel cycle system evolutions over time with limited comparisons of specific tool functionalities. The goal of the FIT project is to improve the confidence in the calculations of these fuel cycle simulators, but with more of a focus on comparing different tool functionalities in isolation, hence the name Functionality Isolation Tests (FIT). The purpose of the project is to test the impact of a Fuel Cycle Code (FCC) functionality and how this impact is propagated over time in the fully-described fuel cycle system calculations. In the present contribution, the first tested functionality (Updated Fuel Composition vs. Fixed Fraction) is presented and results from different methodologies are compared."
-
   - title: "Functionality isolation test for fuel cycle code ORION - MOX fabrication and depletion"
     presenter: "Jin Whan Bae"
-    coauthors: ""
     session: "Benchmarking Efforts"
-    time: "9:30"
-    slides: "/pres/25-whan bae-functionality.pdf"
-    paper: "/papers/25-whan bae-functionality.pdf"
-    abstract: ""
-
+    time: '9:30'
+    paper: '/papers/25-whan bae-functionality.pdf'
+    abstract: "None"
   - title: "NEA Benchmark Study on TRU Management: Results using VISION"
     presenter: "Ross Hays"
-    coauthors: ""
+    coauthors: "Hikaru Hiruta"
     session: "Benchmarking Efforts"
-    time: "9:45"
-    slides: "/pres/26-hays-nea.pdf"
-    paper: "/papers/26-hays-nea.pdf"
+    time: '9:45'
     abstract: "This report details the process, outcomes, and insights gained through the modeling of the transuranic management benchmark exercise proposed by the Nuclear Energy Agency Expert Group on Advanced Fuel Cycle Scenarios.   The examined scenario involves two cooperating regions.  In Country A, an existing fleet of LWRs produces 430 TWHe of energy per year, while in Country B, the fleet produces 260THWE. Beginning in year 80 – and lasting for 30 years – Country A undergoes a transition to a closed fuel cycle, while Country B phases out nuclear power entirely.  Through this second phase of operation, the used nuclear fuel (UNF) generated during phase 1 is utilized and consumed by the new fleet in Country A.  Three separate analysis cases consider whether all, some, or none of the UNF from Country B is available for use by Country A.  Once surplus UNF has been fully consumed, Country A undergoes a second 30-year transition to an equilibrium fleet that can operate in perpetuity without producing or requiring further transuranic (TRU) materials.  Where the design of the fleet for Phases 2 and 3 are left to the discretion of the analyst, a standard two-tier approach is adopted.  The SFR has the additional feature that, by making simple changes to the fuel loading, the TRU consumption rate may be varied from strongly consuming to slight breeding, thus enabling the transition from Phase 2 to Phase 3 without making any changes to the reactor fleet. To examine this scenario, the VISION fuel cycle simulation has been employed.  VISION is built around a system dynamics modeling paradigm, where facilities and materials are both represented as interconnected systems of stocks and flows.  Materials in the various stages of the fuel cycle are represented either as an isotopic vector with a unique mass for each isotope, or as a scalar total mass with an associated fixed isotopic composition vector.   Facilities in the simulation are modeled using a fleet assumption, where every facility of a type is treated identically and only the total facility count is tracked.  The new and used fuel compositions utilized by the VISION model are developed separately using standard core physics tools in order to produce detailed results for a single reactor operating independently.  The analysis results of this approach indicate that the ability to change an SFR from burning to breeding operation without changing the underlying reactor infrastructure enable this scenario to readily adapt to accommodate a wide range of external TRU supply conditions.  Using only intrinsic TRU supplies, the burning phase remains relatively short.  While a large extrinsic supply from Country B requires a substantially longer burning phase, the eventual transition to equilibrium operations will not require further changes to the reactor fleet or underlying supporting infrastructure."
-
   - title: "Discussion"
-    presenter: ""
-    coauthors: ""
     session: "Benchmarking Efforts"
-    time: "10:00"
-
+    time: '10:00'
   - title: "Break"
-    presenter: ""
-    coauthors: ""
     session: "Break"
-    time: "10:45"
-
+    time: '10:45'
   - title: "Nuclear Scenarios Glossary"
     presenter: "Guillaume Krivtchik"
-    coauthors: ""
     session: "Participatory Session"
-    time: "11:00"
-
+    time: '11:00'
   - title: "Lunch"
-    presenter: ""
-    coauthors: ""
     session: "Lunch"
-    time: "12:00"
-
+    time: '12:00'
   - title: "Sensitivity calculation on indirect output in fuel cycle simulation; example of the equilibrium MOX fraction"
     presenter: "M. Ernoult"
-    coauthors: ""
     session: "Exploratory Methods"
-    time: "13:30"
-    slides: "/pres/31-ernoult-sensitivity.pdf"
-    paper: "/papers/31-ernoult-sensitivity.pdf"
+    time: '13:30'
     abstract: "Sensitivity studies and uncertainty propagation are a common occurrence in fuel cycle studies. Numerous works study impact from a variation of input parameters on fuel cycle simulation tools outputs. For some years now, the French community of fuel cycle simulators have been working on the formalization of fuel cycle studies showing that outputs of scenario studies are often not direct outputs of fuel cycle simulation tools. Regularly, outputs of scenario studies are indeed fuel cycle tools‘ input values determined through an optimization process assuring that the tool outputs fulfill some constraints. These outputs, evaluated from the result of a scenario study, are then no more direct outputs and we call them indirect outputs.  However through automation of the optimization process and the increase of available computation power, methods developed for direct output analysis can be more and more used as well for indirect output. Because of the specific methods needed to access to the indirect output values , each analysis method designed for direct outputs needs to be adjusted before being used with indirect outputs.   In this work we present newly developed basic optimization tools and the adaptation of well-known uncertainty propagation methods illustrating this through a sensitivity study of equilibrium MOX fraction within a fleet composed of PWR UOX and PWR MOX. Equilibrium MOX fraction is the proportion of the power that have to come from MOX fuel in order to keep the total Plutonium inventory in the spent UOX fuel constant. As the power coming from a specific fuel type, this equilibrium fraction is typically an input of fuel cycle simulation tools. However, it is also generally the output of an optimization process to minimize the variation of the total Plutonium inventory : equilibrium MOX fraction is a textbook case of indirect output. Through the presentation of the method used to determine the sensitivity of this indirect output to several key input parameters, guidelines and challenges for extension of direct output analysis methods to indirect outputs will be outlined."
-
   - title: "Robustness and flexibility of electro-nuclear scenarios under the disruption of objectives"
     presenter: "J. Liang"
-    coauthors: ""
     session: "Exploratory Methods"
-    time: "13:45"
-    slides: "/pres/32-liang-robustness.pdf"
-    paper: "/papers/32-liang-robustness.pdf"
-    abstract: "Electro-nuclear scenarios studies allow to find appropriate fuel cycle conditions to satisfy a given strategic objectives. Supposing the construction of a trajectory lasting several decades specially designed to match a given objective, back-casting studies indicate possible tendencies to achieve it or potential problems to solve in the future. But in the real life during these decades, whether the aimed objective would remain unchanged is at least uncertain. In this work, we consider such a change of objective during the implementation of the trajectory, called “disruption', and its impact on the scenario.  Robustness analysis could answer whether the scenario is able to achieve the new objective after disruption. With a simple scenario using only PWR of UOX and MOX fuels, this work presents a newly developed methodology for robustness analysis: after an exploration of possible trajectories of the scenario within a large sampling space, those which achieve the first objective A (trajectory of A) are selected. Afterwards a disruption is supposed, where another objective B is applied during the implementation of the trajectory of A. Starting from the data at the disruption time of the initial trajectory, a new sampling is explored to determine adjusted trajectories, which could achieve the new objective B (trajectory of B).  This analysis characterizes the good adjustment to be made after one objective disruption, but it could not tell the cost of such a modification. A method to evaluate the cost of modification needed is therefore presented in this work as well, in which the difference of operational parameters of fleet between the trajectories of A and of B could be quantified to indicate the flexibility of scenario under such disruption."
-
+    time: '13:45'
+    abstract: "Electro-nuclear scenarios studies allow to find appropriate fuel cycle conditions to satisfy a given strategic objectives. Supposing the construction of a trajectory lasting several decades specially designed to match a given objective, back-casting studies indicate possible tendencies to achieve it or potential problems to solve in the future. But in the real life during these decades, whether the aimed objective would remain unchanged is at least uncertain. In this work, we consider such a change of objective during the implementation of the trajectory, called “disruption', and its impact on the scenario.  Robustness analysis could answer whether the scenario is able to achieve the new objective after disruption. With a simple scenario using only PWR of UOX and MOX fuels, this work presents a newly developed methodology for robustness analysis: after an exploration of possible trajectories of the scenario within a large sampling space, those which achieve the first objective A (trajectory of A) are selected. Afterwards a disruption is supposed, where another objective B is applied during the implementation of the trajectory of A. Starting from the data at the disruption time of the initial trajectory, a new sampling is explored to determine adjusted trajectories, which could achieve the new objective B (trajectory of B).  This analysis characterizes the good adjustment to be made after one objective disruption, but it could not tell the cost of such a modification. A method to evaluate the cost of modification needed is therefore presented in this work as well, in which the difference of operational parameters of fleet between the trajectories of A and of B could be quantified to indicate the flexibility of scenario under such disruption. "
   - title: "Nuclear scenarios resilience"
     presenter: "Guillame Krivtchik"
-    coauthors: ""
     session: "Exploratory Methods"
-    time: "14:00"
-    slides: "/pres/33-krivtchik-nuclear.pdf"
-    paper: "/papers/33-krivtchik-nuclear.pdf"
-    abstract: "Nuclear scenarios can be complex and sometimes finely tuned objects, whose parameter bear high uncertainty levels. In the frame of multiple recycling scenarios constrained by separated materials inventories, it has been proven that uncertainty propagation tends to show that some scenarios do not resist disruption. Other concepts of disruption studies, such as resilience and robustness analyses, seem more adapted to tackle the problem of deep uncertainty in scenarios. The principle of those methods is to use levers (controlled parameters) to adjust scenarios to disruption.  In this paper, we present our newest methodological developments for dealing with uncertainty and disruption in scenarios. The Stepwise Uncertainty Reduction (SUR) algorithm is a parameters space exploration method based on kriging. This algorithm is designed to find edges, and generates a kriging model of the probability to exceed a given threshold in function of the parameters. Such model can afterwards be encapsulated within resilience or robustness algorithms.   However, it was observed that the original SUR model has trouble dealing with a specific characteristic of complex scenarios: most of the scenarios are unfeasible, rendering the sampling process inefficient. A method for tackling this issue is to inject the likeness of feasibility directly within the exploration algorithm.   Several implementations of such method will be exposed and compared, and the new SUR method will be applied to an academic scenario problem. Finally, the resolution of an academic resilience problem will be shown."
-
+    time: '14:00'
+    abstract: "Nuclear scenarios can be complex and sometimes finely tuned objects, whose parameter bear high uncertainty levels. In the frame of multiple recycling scenarios constrained by separated materials inventories, it has been proven that uncertainty propagation tends to show that some scenarios do not resist disruption. Other concepts of disruption studies, such as resilience and robustness analyses, seem more adapted to tackle the problem of deep uncertainty in scenarios. The principle of those methods is to use levers (controlled parameters) to adjust scenarios to disruption.  In this paper, we present our newest methodological developments for dealing with uncertainty and disruption in scenarios. The Stepwise Uncertainty Reduction (SUR) algorithm is a parameters space exploration method based on kriging. This algorithm is designed to find edges, and generates a kriging model of the probability to exceed a given threshold in function of the parameters. Such model can afterwards be encapsulated within resilience or robustness algorithms.   However, it was observed that the original SUR model has trouble dealing with a specific characteristic of complex scenarios: most of the scenarios are unfeasible, rendering the sampling process inefficient. A method for tackling this issue is to inject the likeness of feasibility directly within the exploration algorithm.   Several implementations of such method will be exposed and compared, and the new SUR method will be applied to an academic scenario problem. Finally, the resolution of an academic resilience problem will be shown. "
   - title: "Discussion"
-    presenter: ""
-    coauthors: ""
     session: "Exploratory Methods"
-    time: "14:15"
-
+    time: '14:15'
   - title: "Break"
-    presenter: ""
-    coauthors: ""
     session: "Break"
-    time: "14:45"
-
+    time: '14:45'
   - title: "Recyclus: REmote Cyclus execution"
     presenter: "Yarden Livnat"
-    coauthors: ""
     session: "Exploratory Methods"
-    time: "15:00"
-    slides: "/pres/36-livnat-recyclus:.pdf"
-    paper: "/papers/36-livnat-recyclus:.pdf"
-    abstract: ""
-
+    time: '15:00'
+    abstract: "None"
   - title: "Flexible applications of nuclear fuel cycles simulators"
     presenter: "Lee Burke"
-    coauthors: ""
+    coauthors: "L. Bentley Tammero, J. Chin,  R. Morales Rosado,  D. Vermillion, J. Haack, L. Frankin, P. Keller, G. Konjevod, B. Ng, S. Manay, P.D. Whitney"
     session: "Exploratory Methods"
-    time: "15:15"
-    slides: "/pres/37-burke-flexible.pdf"
-    paper: "/papers/37-burke-flexible.pdf"
-    abstract: ""
-
+    time: '15:15'
+    abstract: "None"
   - title: "Lunch"
-    presenter: ""
-    coauthors: ""
     session: "Exploratory Methods"
-    time: "15:30"
-
+    time: '15:30'
   - title: "User experience and building collaborations "
     presenter: "Robert Flanagan & Romarie Morales Rosado"
-    coauthors: ""
     session: "Participatory Session"
-    time: "16:00"
-
+    time: '16:00'
   - title: "End of Talks, Break before dinner"
-    presenter: ""
-    coauthors: ""
-    session: ""
-    time: "17:00"
-
+    time: '17:00'
   - title: "Dinner"
-    presenter: ""
-    coauthors: ""
-    session: ""
-    time: "18:00"
+    time: '18:00'
 - date: "June 28, 2019"
-  active:
+  active: 
   - title: "Molten Salt Reactor Dynamic Approach to Material Accountancy"
     presenter: "A. Wheeler"
-    coauthors: ""
     session: "Nonproliferation"
-    time: "9:00"
-    slides: "/pres/42-wheeler-molten.pdf"
-    paper: "/papers/42-wheeler-molten.pdf"
+    time: '9:00'
     abstract: "Molten Salt Reactors (MSRs) are a Generation IV reactor concept that is undergoing a revival of interest. However, since MSR fuel salt is highly radioactive and corrosive, which makes instrumentation difficult. This poses a challenge to nuclear material control and accountability (MC&A) for MSRs. Current efforts at the University of Tennessee Knoxville are devoted to filling this gap in MC&A. One of the proposed methods is to measure changes in dynamic behavior. Major dynamic parameters such as delayed neutron fraction and mean neutron generation time change during reactor operation due to a buildup of transuranic isotopes. In this sense, the dynamics could be used as a means to measure burnup that is both online and nondestructive. Likewise, if there is a diversion of fissile material, the dynamic behavior can shit dramatically for certain types of transients. This has strong implications when it comes to safeguards for an MSR system. To accomplish this, a generic MSR dynamic model has been assembled to encompass a wide variety of designs. The model will then show the dynamic behavior precalculated from material concentration. Our research inverts this approach and establishes the dynamic to isotopic relation.  Additionally, modules that will simulate material production, decay, and transport based on their general chemical characteristics will be added. This way, material concentrations in various parts of the reactor can be predicted for transient events."
-
   - title: "Physics-baed models for safeguarding pyroprocessing"
     presenter: "Jinsuo Zhang"
-    coauthors: ""
+    coauthors: "Wentao Zhou"
     session: "Nonproliferation"
-    time: "9:15"
-    slides: "/pres/43-zhang-physics-baed.pdf"
-    paper: "/papers/43-zhang-physics-baed.pdf"
-    abstract: "One of the concerns of applying pyroprocessing based on electrochemical separation in molten salt for reprocessing used nuclear fuels is “how to safeguard the process”. Different from the well-developed aqueous processes such PUREX (plutonium and uranium extraction), pyroprocessing does not have an input accountability tank and continuous materials flow. In addition, because the materials in molten salt are non-uniformly distributed in the separation units such as the electrorefiner in which actinides are separated from fission products, sampling methods for inventory analysis of the salt have high uncertainties. It has been recognized that the well-developed safeguarding approach for aqueous processes cannot be applied to pyroprocessing directly.   In pyroprocessing, most of the major processing steps are electrochemical processes, such as electrorefining for separating actinides from fission products, electrochemical reduction for converting spent oxide fuels into their metals, and electrolysis for rare earth drawdown. Therefore, it is possible to develop a common model based on electrochemistry and physics which can be applied to all the electrochemical processes in pyroprocessing to understand the separation properties and predict materials especially actinide distributions and their flows, therefore, to assist the development of an applicable safeguarding approach for pyroprocessing. In the present study, an electrochemical model, taking into account the kinetics of mass transfer in molten slat and electrochemical/chemical reactions at the electrode surface, was firstly developed. Then the model was applied to the processes of electrochemical reduction, electrorefining and electrolysis to predict the material flows and material distributions and concentrations in molten salt in each step. By integrating the model for each step, then the material flows between the two connecting steps can be predicted, therefore, the materials in the whole process can be monitored by the model. The study also conducted parametrical studies to identify the operation parameters that influence the material flows during operation."
-
+    time: '9:15'
+    abstract: "One of the concerns of applying pyroprocessing based on electrochemical separation in molten salt for reprocessing used nuclear fuels is “how to safeguard the process”. Different from the well-developed aqueous processes such PUREX (plutonium and uranium extraction), pyroprocessing does not have an input accountability tank and continuous materials flow. In addition, because the materials in molten salt are non-uniformly distributed in the separation units such as the electrorefiner in which actinides are separated from fission products, sampling methods for inventory analysis of the salt have high uncertainties. It has been recognized that the well-developed safeguarding approach for aqueous processes cannot be applied to pyroprocessing directly.   In pyroprocessing, most of the major processing steps are electrochemical processes, such as electrorefining for separating actinides from fission products, electrochemical reduction for converting spent oxide fuels into their metals, and electrolysis for rare earth drawdown. Therefore, it is possible to develop a common model based on electrochemistry and physics which can be applied to all the electrochemical processes in pyroprocessing to understand the separation properties and predict materials especially actinide distributions and their flows, therefore, to assist the development of an applicable safeguarding approach for pyroprocessing. In the present study, an electrochemical model, taking into account the kinetics of mass transfer in molten slat and electrochemical/chemical reactions at the electrode surface, was firstly developed. Then the model was applied to the processes of electrochemical reduction, electrorefining and electrolysis to predict the material flows and material distributions and concentrations in molten salt in each step. By integrating the model for each step, then the material flows between the two connecting steps can be predicted, therefore, the materials in the whole process can be monitored by the model. The study also conducted parametrical studies to identify the operation parameters that influence the material flows during operation.   "
   - title: "Material diversion analysis within a fuel cycle simulator"
     presenter: "Kathryn Mummah"
-    coauthors: ""
+    coauthors: "Paul P.H. Wilson"
     session: "Nonproliferation"
-    time: "9:30"
-    slides: "/pres/44-mummah-material.pdf"
-    paper: "/papers/44-mummah-material.pdf"
+    time: '9:30'
     abstract: "The IAEA considers a State’s entire fuel cycle capability when evaluating and implementing safeguards, a process known as the State-Level Approach. Conducting Acquisition Path Analysis (APA) is one aspect of ensuring efficient use of safeguards resources and an objective evaluation of member States. APA is designed to identify, characterize, and rank technically-feasible pathways through a fuel cycle to produce weapons-usable material.  The focus of previous APA tools has been identifying diversion pathways. However, the ability to analyze pathways for material throughput capacity is crucial in estimating pathway completion times and implementing tailored safeguards.  Fuel cycle simulators can be used to generate and study acquisition pathways with more detail by tracking material flows.   The Cyclus fuel cycle simulator inherently represents the flows of material among facilities as a graph that can be traversed to identify the numerous acquisition pathways. This work adds material balance areas to Cyclus facilities such that a richer set of acquisition path steps can be studied.  Cyclus facility archetypes implement material buffers for holding material objects internally, but flows between these buffers are internal to the archetype.  A mechanism is introduced to expose the flows between these internal buffers in a way that extends the full system flow graph.  A simplified case will be used to generate all possible diversion pathways and their material throughput capacity. A similar fuel cycle with a single clandestine facility will also be simulated to demonstrate how the presence of a clandestine facility expands the acquisition paths available to a diverting State."
-
   - title: "Diversion detection in CYCLUS"
     presenter: "Gregory Westphal"
-    coauthors: ""
+    coauthors: "Kathryn Huff"
     session: "Nonproliferation"
-    time: "9:45"
-    slides: "/pres/45-westphal-diversion.pdf"
-    paper: "/papers/45-westphal-diversion.pdf"
+    time: '9:45'
     abstract: "This work assesses system parameters that influence separation efficiency and throughput of pyroprocessing facilities. We leverage these parameters to implement a customizable pyroprocessing facility archetype, PyRe, for use with the Cyclus framework. This generic facility model allows simulations to quantify signatures and observables associated with various operational modes and material throughputs for a variety of facility designs. Such quantification can aid timely detection of material diversion. The diversion of significant quantities of SNM from the nuclear fuel cycle is major non-proliferation concern [1]. These diversions must be detected in a timely manner using signatures and observables in order to properly safegaurd the fuel cycle. Timely detection is critical in non-proliferation to discover these shadow fuel cycles before diverted material is further processed. The goal of this research is to gain insight on ideal monitoring points in various pyroprocessing plant designs and minimize time to detect diversion. Simulations are run with the customizable PyRe archetype within the modular, agent- based, fuel cycle simulator, Cyclus [2]. This facility archetype equips users of the Cyclus fuel cycle simulator to investigate detection timeliness enabled by measuring signatures and observables in various fuel cycle scenarios. Cyclus models the flow of material through user-defined nuclear fuel cycle scenarios. Facilities in nuclear fuel cycles vary, requiring a diverse collection of pre-designed facility process models, known as archetypes. Cycamore, the CYClus Additional MOdules REpository, provides common facility archetypes (separations, enrichment, reactor, etc.) [3]. Archetypes are customizable agent models which populate the simulation. Exact isotopes are dynamically tracked between facilities in discrete time steps [2]. This work seeks to add diversion detection methods to Cyclus simulations by tracking signature and observables with a cumulative sum method. A cumulative sum diversion detection method is implemented as the mean value for signatures and observables are often unknown due to the generic aspect of the archetype. Various scenarios will be compared with different facility configurations, tracked signatures, and diversion type. Each facility configuration is run with each signature and observable for a series of known and unknown diversions. Comparing these results will show the key signatures for primary pyroprocessing designs as well which designs are more diversion resistant. Multiple simulations will then be run with unknown material diversion location and quantity. These scenarios will verify the ability to detect a variety of material types or identify troublesome streams and quantities."
-
   - title: "Discussion"
-    presenter: ""
-    coauthors: ""
     session: "Nonproliferation"
-    time: "10:00"
-
+    time: '10:00'
   - title: "Next Steps: Collaboration Inspiration, Future Activities, Opportunities, Open Calls, International Resources, Conferences"
     presenter: "Dynamic signup!"
-    coauthors: ""
     session: "Lightning Talks"
-    time: "11:00"
-
+    time: '11:00'
   - title: "Concluding Remarks, Discussion"
-    presenter: "Huff"
-    coauthors: ""
     session: "Lunch (in place)"
-    time: "12:00"
-
+    time: '12:00'
   - title: "End of Talks"
-    presenter: ""
-    coauthors: ""
     session: "End of Workshop"
-    time: "13:30"
+    time: '13:30'
