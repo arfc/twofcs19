@@ -32,8 +32,14 @@ layout: default
                                         <h5>{{ topic.title }}</h5>
                                         {% if topic.presenter %}<p><i class="fa f-user"> {{ topic.presenter }}</i></p>{% endif %}
                                         {% if topic.type %}<p><i class="fa fa-comment"> {{ topic.type }}</i></p>{% endif %}
-                                        {% if topic.slides %}<p><i class="fa fa-image"></i> <a href="{{ topic.slides }}"> {{ topic.slides }}</a></p>{% endif %}
-                                        {% if topic.paper %}<p><i class="fa fa-file-text-o"></i> <a href="{{ topic.paper }}">{{ topic.paper }}</a></p>{% endif %}
+                                        <p><i class="fa fa-image"></i>
+                                          {% if topic.slides %}<a href="{{ topic.slides }}"> {{ topic.slides }}</a>
+                                          {% else %}Slides will be posted during the workshop{% endif %}
+                                        </p>
+                                        <p><i class="fa fa-file-text-o"></i>
+                                          {% if topic.paper %}<a href="{{ topic.paper }}">{{ topic.paper }}</a>
+                                          {% else %}Papers will be posted during the workshop{% endif %}
+                                        </p>
                                         </div>
                                         {% if topic.abstract %}
                                          <button class="btn btn-primary" 
