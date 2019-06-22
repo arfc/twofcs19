@@ -27,7 +27,7 @@ def print_program(data):
     num = 0
     program_body = ''
     for abstract in data:
-        print(num)
+        #print(num)
         sessiontype = get_item(abstract, 'sessiontype')
         presenter = get_item(abstract, 'presenter')
         title = get_item(abstract, 'title')
