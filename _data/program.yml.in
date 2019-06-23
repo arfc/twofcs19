@@ -2,6 +2,8 @@
 - date: "{{ date }}"
   active: {% endif %}
   - title: "{{ title }}"
+{%- if chair %}
+    chair: "{{ chair }}"{% endif %}
 {%- if presenter %}
     presenter: "{{ presenter }}"{% endif %}
 {%- if coauthors %}
