@@ -31,7 +31,7 @@
       suburl: "/present/abstract"
     - subtitle: "Submit a Paper"
       suburl: "/present/paper"
-    - subtitle: "Speaker Instrutions"
+    - subtitle: "Speaker Instructions"
       suburl: "/present/instructions"
 
 - title: "Program"
