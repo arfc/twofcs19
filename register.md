@@ -2,7 +2,7 @@
 layout: manual
 title: Register
 subtitle: "Registration is open."
-permalink: /register
+permalink: /register/
 ---
 
 
