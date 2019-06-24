@@ -10,7 +10,7 @@ TWOFCS19 is hosted at the University of Illinois at Urbana-Champaign.
 
 # Workshop Location
 
-The workshop will be held in the Illini Union, located at [1401 West Green 
+The workshop will be held in **room 314** of the **Illini Union**, located at [1401 West Green 
 Street in Urbana, Illinois,](https://goo.gl/maps/CMM1sSsAcHu) on the campus of 
 the University of Illinois at Urbana–Champaign. This is the student union for 
 the University.
