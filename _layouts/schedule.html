@@ -13,6 +13,7 @@ layout: default
                 </div>
         </div>
 
+        {% assign my_counter = 0 %}
         {% for day in site.data.program %}
         <div class="container">
                 <div class="row">
@@ -22,8 +23,9 @@ layout: default
                         </center>
                         <div class="collapse" id="{{ forloop.index }}">
                                 {% for topic in day.active %}
-                                <br/>
-                                <div class="row project" style="margin-top: 0px; margin-bottom: 0px;">
+                                     {% capture absnum %}{% increment my_counter %}{% endcapture %}
+                                     <br/>
+                                     <div class="row project" style="margin-top: 0px; margin-bottom: 0px;">
                                         <div class="col-md-2">
                                         <h4>{{ topic.time }}</h4>
                                         {% if topic.session %}<p><i class="fa 
@@ -61,15 +63,16 @@ layout: default
                                                 <button class="btn btn-primary" 
                                                         type="button" 
                                                         data-toggle="collapse" 
-                                                        data-target="#{{ forloop.index }}-abs" 
-                                                        aria-expanded="false" 
-                                                        aria-controls="{{ forloop.index }}-abs">
+                                                        data-parent="#{{ forloop.index }}"
+                                                        data-target="#{{ absnum }}-abs"
+                                                        aria-expanded="false"
+                                                        aria-controls="{{ absnum }}-abs">
                                                         <i class="fa fa-file-text-o"></i> txt
                                                 </button> 
-                                        {% assign abs = topic.abstract %}
-                                        <div class="collapse" id="{{ forloop.index }}-abs">
-                                                <p class="text-muted" >{{ abs }}</p>
-                                        </div>
+                                                {% assign abs = topic.abstract %}
+                                                <div class="collapse" id="{{ absnum }}-abs">
+                                                        <p class="text-muted" >{{ abs }}</p>
+                                                </div>
                                         {% endif %}
                                         </div>
                                 </div>
