@@ -13,7 +13,7 @@ Presentation, demonstration, and communication will focus on the technical
 concerns of nuclear fuel cycle simulation relevant in various nations and 
 institutions involved in the field. Accordingly, this workshop contributes to 
 building a community and potential collaborations around nuclear scenario 
-topics, simulation design, simulator tool strategies. 
+topics, simulation design, and simulator tool strategies. 
 
 ## Organizers
 
