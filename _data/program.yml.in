@@ -1,0 +1,20 @@
+{%- if date %}
+- date: "{{ date }}"
+  active: {% endif %}
+  - title: "{{ title }}"
+{%- if chair %}
+    chair: "{{ chair }}"{% endif %}
+{%- if presenter %}
+    presenter: "{{ presenter }}"{% endif %}
+{%- if coauthors %}
+    coauthors: "{{ coauthors }}"{% endif %}
+{%- if session %}
+    session: "{{ session }}"{% endif %}
+{%- if time %}
+    time: '{{ time }}'{% endif %}
+{%- if slides %}
+    slides: '/pres/{{ filename }}'{% endif %}
+{%- if paper %}
+    paper: '/papers/{{ filename }}'{% endif %}
+{%- if talk %}
+    abstract: "{{ abstract_text }}"{% endif %}

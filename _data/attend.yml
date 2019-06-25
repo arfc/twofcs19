@@ -1,0 +1,19 @@
+- name: Registration
+  pic: img/registration.png
+  url: attend/registration
+  description: 'There is no registration fee for the workshop, but please register so that we can be prepared for your attendance.'
+  
+- name: Location
+  pic: attend/location.png
+  url: attend/location
+  description: 'Find information about the venue, local airports, and transportation.'
+
+- name: Lodging
+  pic: attend/lodging.png
+  url: attend/lodging
+  description: 'Many hotels are within walking distance of the workshop.'
+
+- name: Explore
+  pic: attend/explore.png
+  url: attend/explore
+  description: 'Find out about nearby entertainment, activities, and sights.'

@@ -1,0 +1,11 @@
+- name: "Illini Union"
+  description: 'The Illini Union is in the heart of the Illinois campus. Modest hotel rooms are just upstairs from the TWoFCS workshop conference rooms. The building contains a hotel, meeting rooms, food establishments, and study lounges.'
+  url: "https://union.illinois.edu/stay/illini-union-hotel" 
+  pic: "https://union.illinois.edu/~/media/Sites/Union/Images/Feature%20Slides/Hotel/ReviseIUHotel_DeskCustomer.ashx"
+  map: "https://goo.gl/maps/NiZGJfXmGX82"
+- name: "TownePlace Suites by Marriott, Champaign"
+  description: 'This hotel is two blocks from the main location for the workshop. It is located on a lively street with food establishments, bars, coffee shops, etc. It has a small gym, pool, and a lobby bar.'
+  url: 'https://www.marriott.com/hotels/travel/cmpts-towneplace-suites-champaign-urbana-campustown/'
+  pic: "https://s-ec.bstatic.com/images/hotel/max1024x768/603/60303634.jpg"
+  map: "https://goo.gl/maps/g86DSNCXWHJ2"
+

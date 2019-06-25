@@ -1,0 +1,163 @@
+- name: Kathryn Huff
+  pic: /img/people/huffk.jpg
+  role: Chair
+  src: http://katyhuff.github.io
+  url: http://katyhuff.github.io
+  description: 'Assistant Professor at the University of Illinois at Urbana-Champaign'
+  social:
+    - url: mailto:kdhuff@illinois.edu
+      icon: envelope-o
+      name: Email
+    - url: https://github.com/katyhuff
+      icon: github-alt
+      name: Github
+    - url: https://twitter.com/katyhuff
+      icon: twitter
+      name: Twitter
+    - url: https://www.linkedin.com/in/kathryn-huff-b03309a
+      icon: linkedin
+      name: LinkedIn
+    - url: https://scholar.google.com/citations?user=rD2qRk8AAAAJ&hl=en
+      icon: graduation-cap
+      name: Google Scholar
+
+- name: Paul P.H. Wilson
+  pic: /img/people/wilsonp.jpg
+  role: Technical Program Committee
+  src: https://directory.engr.wisc.edu/ep/faculty/wilson_paul
+  url: https://directory.engr.wisc.edu/ep/faculty/wilson_paul
+  description: 'Grainger Professor of Nuclear Engineering at the University of Wisconsin - Madison'
+  social:
+    - url: mailto:paul.wilson@wisc.edu
+      icon: envelope-o
+      name: Email
+    - url: https://github.com/gonuke
+      icon: github-alt
+      name: Github
+    - url: https://twitter.com/gonuke
+      icon: twitter
+      name: Twitter
+
+- name: Baptiste Mouginot 
+  pic: /img/people/mouginotb.png
+  role: Technical Program Committee
+  src: http://cnerg.github.io/people/bam.html
+  url: http://cnerg.github.io/people/bam.html
+  description: 'Research Scientist at the University of Wisconsin - Madison'
+  social:
+    - url: mouginot@wisc.edu
+      icon: envelope-o
+      name: Email
+    - url: https://github.com/bam241
+      icon: github-alt
+      name: Github
+    - url: https://www.linkedin.com/in/baptiste-mouginot-75992520
+      icon: linkedin
+      name: LinkedIn
+    - url: https://www.researchgate.net/profile/Baptiste_Mouginot
+      icon: graduation-cap
+      name: ResearchGate
+
+- name: Nicolas Tholliere
+  pic: /img/people/thollieren.jpg
+  role: Technical Program Committee
+  src: https://www.imt-atlantique.fr/en/user/972
+  url: https://www.imt-atlantique.fr/en/user/972
+  description: 'Nicolas Thiollière is working on nuclear systems and fuel cycle simulations at CNRS/IN2P3 and is also teacher at IMT Atlantique. He pilots the research project around the fuel cycle simulator CLASS, mainly used to perform fuel cycle studies in IN2P3 and IRSN. Nicolas thiolliere also leads interdisciplinary programs that connect nuclear physicists with researchers in sociology and economics. They work on the energetic transition and try also to assess what is the role of scenarios in this framework. He leads the FIT (Functionnality Isolation Test) project that gathers nuclear physicist from US and Europe on the topic of confidence in fuel cycle simulators outputs.'
+  social:
+    - url: https://www.researchgate.net/profile/Nicolas_Thiolliere
+      icon: graduation-cap
+      name: ResearchGate
+
+- name: Eva Davidson
+  pic: /img/people/davidsone.jpg
+  role: Technical Program Committee
+  src: https://www.ornl.gov/staff-profile/eva-e-davidson
+  url: https://www.ornl.gov/staff-profile/eva-e-davidson
+  description: 'Reactor Physics Analysis Engineer, Oak Ridge National Laboratory'
+  social:
+    - url: mailto:davidsonee@ornl.gov
+      icon: envelope-o
+      name: Email
+    - url: https://orcid.org/0000-0001-5733-9273
+      icon: graduation-cap
+      name: OrcID
+
+- name: Bo Feng
+  pic: /img/people/fengb.jpg
+  role: Technical Program Committee
+  src: https://www.anl.gov/profile/bo-feng
+  url: https://www.anl.gov/profile/bo-feng
+  description: 'Bo Feng is a reactor and fuel cycle analysis expert at Argonne National Laboratory. His research has focused primarily on reactor physics analysis, advanced reactor core design, radiation transport, and fuel cycle systems modeling. Currently, he is leading Argonne’s research activities for NNSA’s Pu Disposition program, coordinating various MSR modeling and simulation efforts, and supporting DOE-NE’s Systems Analysis and Integration campaign as the lead developer of the dynamic fuel cycle systems code DYMOND. Bo has received several laboratory and national level awards for his research including Best Paper of 2009 (ANS THD), DOE’s Fuel Cycle R&D Excellence Award (2014), and Argonne Director’s Award (2016). He also served in the ANS RPD Program Committee (2014-2017). During his studies at M.I.T., he performed research in reactor physics, reduced moderation boiling water reactors, and nitride fuel performance.'
+  social:
+    - url: mailto:bofeng@anl.gov
+      icon: envelope-o
+      name: Email
+
+- name: Romarie Morales Rosado
+  pic: /img/people/moralesr.png
+  role: Technical Program Committee
+  src: https://www.pnnl.gov/science/staff/staff_info.asp?staff_num=9026
+  url: https://www.pnnl.gov/science/staff/staff_info.asp?staff_num=9026
+  description: 'Scientist, Applied Statistics and Computational Modeling, Pacific Northwest National Laboratory'
+  social:
+    - url: mailto:Romarie.morales@pnnl.gov
+      icon: envelope-o
+      name: Email
+    - url: https://scholar.google.com/citations?user=K88t8NYAAAAJ&hl=en
+      icon: graduation-cap
+      name: Google Scholar
+
+- name: Ross Hays
+  pic: /img/people/haysr.png
+  role: Technical Program Committee
+  src: https://bios.inl.gov/Lists/Researcher/DisplayOverrideForm.aspx?ID=283
+  url: https://bios.inl.gov/Lists/Researcher/DisplayOverrideForm.aspx?ID=283
+  description: 'Environmental Engineer at Idaho National Laboratory working in the system dynamics and analysis group'
+  social:
+    - url: mailto:ross.hays@inl.gov
+      icon: envelope-o
+      name: Email
+    - url: https://RossDHays
+      icon: github-alt
+      name: Github
+    - url: https://www.linkedin.com/in/rosshays
+      icon: linkedin
+      name: LinkedIn
+
+- name: Guillaume Krivtchik
+  pic: /img/people/you.png
+  role: Technical Program Committee
+  src: 
+  url: 
+  description: 'Research engineer, CEA'
+  social:
+    - url: mailto:guillaume.krivtchik@cea.fr
+      icon: envelope-o
+      name: Email
+    - url: https://www.linkedin.com/in/guillaume-krivtchik-29b96693
+      icon: linkedin
+      name: LinkedIn
+
+- name: Firstname Lastname
+  pic: /img/people/you.png
+  role: Technical Program Committee
+  src: <++>
+  url: <++>
+  description: 'Fancytitle Professor at Euphoric State University'
+  social:
+    - url: mailto:<++>
+      icon: envelope-o
+      name: Email
+    - url: https://<++>
+      icon: github-alt
+      name: Github
+    - url: https://twitter.com/<++>
+      icon: twitter
+      name: Twitter
+    - url: https://www.linkedin.com/in/<++>
+      icon: linkedin
+      name: LinkedIn
+    - url: https://scholar.google.com/citations?user=<++>
+      icon: graduation-cap
+      name: Google Scholar

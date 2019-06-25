@@ -1,0 +1,42 @@
+- title: "About"
+  url: "/about"
+  subcategories:
+    - subtitle: "History"
+      suburl: "/about/history"
+    - subtitle: "Organizers"
+      suburl: "/about/organizers"
+    - subtitle: "Participants"
+      suburl: "/about/participants"
+    - subtitle: "Code of Conduct"
+      suburl: "/about/coc"
+    - subtitle: "Sponsors"
+      suburl: "/about/sponsors"
+
+- title: "Attend"
+  url: "/attend/"
+  subcategories:
+    - subtitle: "Registration"
+      suburl: "/attend/register"
+    - subtitle: "Location"
+      suburl: "/attend/location"
+    - subtitle: "Lodging"
+      suburl: "/attend/lodging"
+
+- title: "Present"
+  url: "/present/cfa"
+  subcategories:
+    - subtitle: "Call for Abstracts"
+      suburl: "/present/cfa"
+    - subtitle: "Submit an Abstract"
+      suburl: "/present/abstract"
+    - subtitle: "Submit a Paper"
+      suburl: "/present/paper"
+    - subtitle: "Speaker Instructions"
+      suburl: "/present/instructions"
+
+- title: "Program"
+  url: "/program/schedule/"
+  subcategories:
+    - subtitle: "Schedule"
+      suburl: "/program/schedule/"
+
