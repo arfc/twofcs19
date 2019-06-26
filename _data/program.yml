@@ -177,12 +177,12 @@
   - title: "Break"
     session: "Break"
     time: '14:45'
-  - title: "Recyclus: REmote Cyclus execution"
+  - title: "Regulus in Jupyter Lab"
     chair: "Romie Morales Rosado & Xavier Doligez"
     presenter: "Yarden Livnat"
     session: "Exploratory Methods"
     time: '15:00'
-    abstract: "None"
+    abstract: "This is a continuation of our work for visual analysis for  high dimensional data. Last year, in Paris, I presented Regulus, a standalone  implementation we developed that run in a browser and interface with a dedicated server. It was a nice system but it only allows a set of pre-defined operations. After the conference I changed course and develop a whole new system that is designed to work in Jupyter Lab. It consist of 1) an extensible pure python package that implement the core functionality of of Regulus without any visualization and 2)  a few extensions to Jupyter Lab that enables users to run Regulus analysis and visualize it using multiple windows,, interact with It and augment and modify it on the fly via user define models and metrics.  I presented it in the NEUP PI meeting last September. "
   - title: "Flexible applications of nuclear fuel cycles simulators"
     chair: "Romie Morales Rosado & Xavier Doligez"
     presenter: "Lee Burke"
