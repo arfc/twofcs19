@@ -121,10 +121,11 @@
     abstract: "Since the 1990’s, many different fuel cycle systems tools have been developed by several institutions (industrial, engineering, academic, etc.). These tools vary in terms complexity, from a simple spreadsheet model to a complex simulation code framework. These tools have evolved and new tools have been developed to leverage more increasingly powerful computational advancements. Many of these tools have the option to be used at different levels of detail and have the flexibility to be adapted for one specific problem or to any problem related to the nuclear fuel cycle. FIT Project stands for Functionality Isolation Test and aims to focus on dynamic fuel cycle simulators functionalities. Fuel cycle simulators are an essential part of the technical evaluation of the future deployment of innovative nuclear systems. Also, they help identify drivers and interactions between parameters in fuel cycle fleet physics. Finally, these tools produce data for further assessments (economy, safety, non-proliferation, etc.) that can be internal or external to the tool. Many of these tools were developed independently by a single institution and oftentimes by a single individual with limited feedback from an established user community or from other developers. There have been multiple international fuel cycle code benchmarks in the past but these were dedicated to comparing detailed time-dependent results for fully-described fuel cycle system evolutions over time with limited comparisons of specific tool functionalities. The goal of the FIT project is to improve the confidence in the calculations of these fuel cycle simulators, but with more of a focus on comparing different tool functionalities in isolation, hence the name Functionality Isolation Tests (FIT). The purpose of the project is to test the impact of a Fuel Cycle Code (FCC) functionality and how this impact is propagated over time in the fully-described fuel cycle system calculations. In the present contribution, the first tested functionality (Updated Fuel Composition vs. Fixed Fraction) is presented and results from different methodologies are compared."
   - title: "Functionality isolation test for fuel cycle code ORION - MOX fabrication and depletion"
     chair: "Nicolas Thiollière"
-    presenter: "Eva Davidson, Andrew Worrall "
+    presenter: "Jin Whan Bae"
+    coauthors: "Eva Davidson, Andrew Worrall "
     session: "Benchmarking Efforts"
     time: '9:15'
-    paper: '/papers/24-davidson, andrew worrall -functionality.pdf'
+    paper: '/papers/24-whan bae-functionality.pdf'
     abstract: "None"
   - title: "NEA Benchmark Study on TRU Management: Results using VISION"
     chair: "Nicolas Thiollière"
