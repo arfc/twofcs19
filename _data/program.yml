@@ -28,6 +28,7 @@
     coauthors: "Robert Flanagan, Kathryn Huff"
     session: "Simulator Developments and Capabilities"
     time: '9:45'
+    slides: 'https://arfc.github.io/twofcs19/img/2019-chee-twofcs-pres.pdf'
     abstract: "For many fuel cycle simulators, it is currently up to the user to define a deployment scheme of supporting facilities or provide an infinite inventory of commodities to ensure that there is no gap in the supply chain. To ease setting up nuclear fuel cycle simulations, Nuclear Fuel Cycle (NFC) simulators should bring demand responsive deployment decisions into the dynamics of the simulation logic. In this work, we develop demand driven deployment capabilities in Cyclus, d3ploy.  User-controlled capabilities such as supply/ capacity buffers, constraint deployment, prediction algorithms, and installed capacity deployment were introduced in d3ploy to give a user the tools to minimize commodity undersupply in a simulation. We demonstrate d3ploy’s capability to automatically deploy fuel cycle facilities to meet various types of user-defined power demands: constant, linearly increasing, and sinusoidal. "
   - title: "Discussion"
     time: '10:00'
