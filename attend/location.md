@@ -24,7 +24,7 @@ prepared [a
 map](https://www.google.com/maps/d/viewer?mid=1WGkKDweeIzfHArAMvz4dPDDnXLNB-y4D&hl=en&usp=sharing)
 of various popular options nearby.
 
-<iframe src="https://www.google.com/maps/d/embed?mid=1WGkKDweeIzfHArAMvz4dPDDnXLNB-y4D&hl=en" width="640" height="480"></iframe>
+<iframe src="https://www.google.com/maps/d/embed?mid=1WGkKDweeIzfHArAMvz4dPDDnXLNB-y4D&hl=en" width="720" height="560"></iframe>
 
 ## Airports
 
