@@ -7,7 +7,7 @@
     presenter: "Kathryn Huff"
     coauthors: "Organizers"
     time: '9:00'
-    slides: '/pres/01-huff-welcome.pdf'
+    slides: 'https://katyhuff.github.io/2019-06-26-twofcs19'
     abstract: "None"
   - title: "Recent developments of the DYMOND code"
     chair: "Xavier Doligez"

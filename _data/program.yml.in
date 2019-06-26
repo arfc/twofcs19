@@ -13,7 +13,7 @@
 {%- if time %}
     time: '{{ time }}'{% endif %}
 {%- if slides %}
-    slides: '/pres/{{ filename }}'{% endif %}
+    slides: '{{ slides }}'{% endif %}
 {%- if paper %}
     paper: '/papers/{{ filename }}'{% endif %}
 {%- if talk %}
