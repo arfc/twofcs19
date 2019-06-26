@@ -26,6 +26,39 @@ of various popular options nearby.
 
 <iframe src="https://www.google.com/maps/d/embed?mid=1WGkKDweeIzfHArAMvz4dPDDnXLNB-y4D&hl=en" width="720" height="560"></iframe>
 
+
+## Things to Do
+
+There are a handful of fun things to do in Champaign and Urbana.
+
+- [Music Events 
+  Calendar](https://smilepolitely.com/music/the_overture_june_24_301/)
+- [Community Events Calendar](https://www.chambanamoms.com/event-calendar/)
+
+
+Some highlights to consider follow.
+
+**Wednesday, June 26** 
+
+- [Bill and Ted's Excellent Adventure, outdoor showing](https://www.facebook.com/events/417654245752261/)
+- [Danville Dan's Baseball](https://www.danvilledans.org/schedule.php) Small town baseball games, a 30 minute drive away.
+
+
+**Thursday, June 27** 
+- [Krannert Uncorked](https://krannertcenter.com/events/krannert-uncorked-kvn-tajzea-and-justin-m-brauer) 5:00-6:00pm, Wine tasting and live music within a block of the Illini Unio.
+- [Music on the Quad](https://www.chambanamoms.com/events/summer-twilight-concert-on-the-quad/) 7:00pm-8:00pm, Live marching band directly outside the Illini Union.
+- [Summer Quad Cinema Series - Little](https://www.chambanamoms.com/events/summer-quad-cinema-series-7/) 9:00-11:00pm, outdoor movie directly outside the Illini Union
+- [Rigg's Fest](http://www.riggsbeer.com/index.php/riggs-fest/) Local Brewery, live music, ourdoor beer garden.
+- [Danville Dan's Baseball](https://www.danvilledans.org/schedule.php) Small town baseball games, a 30 minute drive away.
+
+
+**Friday, June 28** 
+
+- [Friday Night Live](https://40north.org/programs/friday-night-live) Downtown Champaign has outdoor music every friday, starting at 6, on multiple 
+  streetcorners
+- [Rigg's Fest Continues](http://www.riggsbeer.com/index.php/riggs-fest/)
+- [Danville Dan's Baseball](https://www.danvilledans.org/schedule.php) Small town baseball games, a 30 minute drive away.
+
 ## Airports
 
 Attendees are encouraged to fly directly into the Champaign airport 
