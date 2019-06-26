@@ -17,6 +17,13 @@ the University.
 
 
 ## Recommended Establishments
+
+If you're looking for somewhere to have lunch, dinner, or a beverage in the 
+evening, We have 
+prepared [a 
+map](https://www.google.com/maps/d/viewer?mid=1WGkKDweeIzfHArAMvz4dPDDnXLNB-y4D&hl=en&usp=sharing)
+of various popular options nearby.
+
 <iframe src="https://www.google.com/maps/d/embed?mid=1WGkKDweeIzfHArAMvz4dPDDnXLNB-y4D&hl=en" width="640" height="480"></iframe>
 
 ## Airports
