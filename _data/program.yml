@@ -108,10 +108,8 @@
     chair: "Ross Hays"
     session: "Economics and Policy"
     time: '16:00'
-  - title: "End of Talks, Break before Dinner"
+  - title: "End of Talks"
     time: '16:45'
-  - title: "Dinner"
-    time: '18:00'
 - date: "June 27, 2019"
   active: 
   - title: "Breakfast, Registration"
@@ -129,7 +127,7 @@
     coauthors: "Eva Davidson, Andrew Worrall "
     session: "Benchmarking Efforts"
     time: '9:15'
-    paper: '/papers/24-whan bae-functionality.pdf'
+    paper: '/papers/23-whan bae-functionality.pdf'
     abstract: "None"
   - title: "NEA Benchmark Study on TRU Management: Results using VISION"
     chair: "Nicolas Thiollière"
@@ -202,10 +200,8 @@
     presenter: "Robert Flanagan & Romarie Morales Rosado"
     session: "Participatory Session"
     time: '16:00'
-  - title: "End of Talks, Break before dinner"
+  - title: "End of Talks"
     time: '17:00'
-  - title: "Dinner"
-    time: '18:00'
 - date: "June 28, 2019"
   active: 
   - title: "Breakfast, Registration"
@@ -259,3 +255,7 @@
   - title: "End of Talks"
     session: "End of Workshop"
     time: '13:00'
+  - title: "Cyclus Community Meeting"
+    session: "Cyclus Community Meeting"
+    time: '13:00'
+    slides: 'https://drive.google.com/open?id=1dnJv0KPcw3vfRCVd-6KSXleGz0cZ2orKGu5d3mu5FYQ'
