@@ -15,6 +15,10 @@ Street in Urbana, Illinois,](https://goo.gl/maps/CMM1sSsAcHu) on the campus of
 the University of Illinois at Urbana–Champaign. This is the student union for 
 the University.
 
+
+## Recommended Establishments
+<iframe src="https://www.google.com/maps/d/embed?mid=1WGkKDweeIzfHArAMvz4dPDDnXLNB-y4D&hl=en" width="640" height="480"></iframe>
+
 ## Airports
 
 Attendees are encouraged to fly directly into the Champaign airport 
