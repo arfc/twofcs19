@@ -45,7 +45,7 @@ Some highlights to consider follow.
 
 
 **Thursday, June 27** 
-- [Krannert Uncorked](https://krannertcenter.com/events/krannert-uncorked-kvn-tajzea-and-justin-m-brauer) 5:00-6:00pm, Wine tasting and live music within a block of the Illini Unio.
+- [Krannert Uncorked](https://krannertcenter.com/events/krannert-uncorked-kvn-tajzea-and-justin-m-brauer) 5:00-6:00pm, Wine tasting and live music within a block of the Illini Union.
 - [Music on the Quad](https://www.chambanamoms.com/events/summer-twilight-concert-on-the-quad/) 7:00pm-8:00pm, Live marching band directly outside the Illini Union.
 - [Summer Quad Cinema Series - Little](https://www.chambanamoms.com/events/summer-quad-cinema-series-7/) 9:00-11:00pm, outdoor movie directly outside the Illini Union
 - [Rigg's Fest](http://www.riggsbeer.com/index.php/riggs-fest/) Local Brewery, live music, ourdoor beer garden.
