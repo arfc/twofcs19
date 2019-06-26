@@ -64,8 +64,10 @@
   - title: "Parameter interpolation for MSR core physics modules"
     chair: "Batptiste Mouginot"
     presenter: "Kyle Anderson"
+    coauthors: "Steve Skutnik, Alex Wheeler, Ondrej Chvala"
     session: "Physics & Technology Modeling"
     time: '13:45'
+    slides: 'https://arfc.github.io/twofcs19/img/2019-anderson-twofcs.pdf'
     abstract: "A major challenge for the deployment of molten salt reactors (MSRs) is the establishment of nuclear material and accountability (MC&A) methods. To address this a modular framework that will allow the testing of MC&A methods on a variety of liquid fueled MSRs design is being developed. The framework will include many modules (reactor core, off-gas processing, etc.) that will be coupled together through the mass flow of the fuel salt. The design space for liquid fueled molten salt reactors is vast, encompassing both thermal and fast neutron spectrums, thorium-uranium and uranium-plutonium fuel cycles, breeder and burner configurations, amongst other design parameters. Semi-generic reactor core physics modules are being created to encompass these significant design parameters. Each reactor core module will include pre-generated reactor cross section libraries that can be used to solve for the isotopic changes in the fuel salt in the core. These libraries will have the ability to be interpolated over with the interpolation space including additional reactor core parameters such as: salt type, salt-to-moderator ratio, gas-processing, burnup, etc. This will be done by interpolating over transition matrices between libraries. Appropriate spacing for the interpolation parameters must be found. To accomplish this, multiple transport-depletion calculations are being performed while sweeping over all relevant parameters. The change between transition matrices while a parameter is being swept over is calculated. The interpolation parameter spacing will then be correlated to the sensitivity of the transition matrix to the change of the parameter."
   - title: "Development of multi-zone fuel loading model for scenario"
     chair: "Batptiste Mouginot"
