@@ -127,6 +127,7 @@
     coauthors: "Eva Davidson, Andrew Worrall "
     session: "Benchmarking Efforts"
     time: '9:15'
+    slides: 'https://arfc.github.io/twofcs19/img/2019-bae-twofcs.pdf'
     paper: '/papers/23-whan bae-functionality.pdf'
     abstract: "None"
   - title: "NEA Benchmark Study on TRU Management: Results using VISION"
