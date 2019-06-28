@@ -262,6 +262,9 @@
     session: "End of Workshop"
     time: '13:00'
   - title: "Cyclus Community Meeting"
+    chair: "Cyclus Community"
+    presenter: "All Welcome"
     session: "Cyclus Community Meeting"
     time: '13:00'
     slides: 'https://drive.google.com/open?id=1dnJv0KPcw3vfRCVd-6KSXleGz0cZ2orKGu5d3mu5FYQ'
+    abstract: "Taking advantage of a critical mass of Cyclus simulator stakeholders, a collaborative discussion of Cyclus developers, users, and other stakeholders will immediately follow the TWoFCS19 meeting. Any TWoFCS attendees are welcome to join us if interested."
